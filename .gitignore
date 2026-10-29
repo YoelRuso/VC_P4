@@ -1,0 +1,45 @@
+# Datos: datasets y vídeos no se suben (están en Hugging Face: python descargar_datos.py)
+datos/*
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Images
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.tif
+*.tiff
+*.webp
+
+# Videos
+*.mp4
+*.MP4
+*.avi
+*.mov
+*.mkv
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Generado por los cuadernos (lleva rutas absolutas de cada equipo)
+P4/runs/matriculas.yaml
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Excepciones: gráficas del README y modelo entrenado
+!P4/runs/**/*.png
+!P4/runs/**/*.jpg
+!P4/runs/matriculas_yolo11n/weights/best.pt
