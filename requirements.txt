@@ -1,0 +1,4 @@
+ultralytics
+lap
+ipykernel
+huggingface_hub

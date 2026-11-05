@@ -1,5 +1,7 @@
 # Datos: datasets y vídeos no se suben (están en Hugging Face: python descargar_datos.py)
 datos/*
+videos/*
+!videos/.gitkeep
 
 # Archives
 *.zip
@@ -34,6 +36,12 @@ datos/*
 # Generado por los cuadernos (lleva rutas absolutas de cada equipo)
 P4/runs/matriculas.yaml
 
+# Repositorio externo de RT-DETR: se clona aparte (ver README)
+P4/RT-DETR/
+
+# Secretos
+.env
+
 # Python / Jupyter
 __pycache__/
 *.pyc
@@ -42,4 +50,4 @@ __pycache__/
 # Excepciones: gráficas del README y modelo entrenado
 !P4/runs/**/*.png
 !P4/runs/**/*.jpg
-!P4/runs/matriculas_yolo11n/weights/best.pt
+!P4/runs/*/weights/best.pt
