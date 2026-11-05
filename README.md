@@ -1,6 +1,6 @@
 # Práctica 4 · Detección de vehículos, matrículas y OCR
 
-Trabajo en curso. Por ahora está hecho el dataset de matrículas y el entrenamiento del detector de matrículas (YOLO11n).
+Trabajo en curso. Por ahora están hechos el dataset de matrículas y el entrenamiento y la evaluación del detector de matrículas (YOLO11n). Lo que falta está en [Pendiente](#pendiente).
 
 ## Estructura
 
@@ -18,9 +18,10 @@ VC_P4/
 │   ├── entrenar_matriculas_1280.ipynb  entrenamiento a 1280 para matrículas lejanas (pensado para Colab)
 │   ├── probar_pesos_video.ipynb    aplica unos pesos a un vídeo y guarda el resultado en videos/
 │   ├── runs/matriculas_yolo11n/    entrenamiento local a 640: curvas, matriz de confusión, weights/best.pt
-│   ├── runs/matriculas_yolo11n_colab/  mismo entrenamiento repetido en Colab
-│   ├── runs/matriculas_yolo11n_1280/   entrenamiento a 1280 (Colab)
+│   ├── runs/matriculas_yolo11n_colab/  entrenamiento a 640 repetido en Colab (`batch=16`)
+│   ├── runs/matriculas_yolo11n_1280/   entrenamiento a 1280 (Colab, `batch=4`, `scale=0.9`)
 │   ├── runs/matriculas_yolo11n_test/   evaluación en test
+│   ├── load_rtdetr.py / .ipynb     carga RT-DETR con pesos COCO (aún no se ha entrenado con matrículas)
 │   ├── RT-DETR/                    (no se sube) clon de https://github.com/lyuwenyu/RT-DETR
 │   └── VC_P4.ipynb, README.md…     material de la asignatura
 └── P4b/                            OCR (material de la asignatura)
@@ -87,7 +88,21 @@ Acceso al dataset: [YoelRuso/MatriculasVC](https://huggingface.co/datasets/YoelR
 
 Los conjuntos de validación y test son pequeños, así que estas cifras tienen bastante margen de error: una matrícula más o menos cambia varios puntos. Ninguna imagen de validación o test se usó para entrenar.
 
+### Comparación de entrenamientos
+
+Mejor época por mAP50-95 de cada `results.csv`, siempre sobre validación:
+
+| Entrenamiento | `imgsz` | `batch` | Época | Precisión | Recall | mAP50 | mAP50-95 |
+|---|---|---|---|---|---|---|---|
+| Local (`matriculas_yolo11n`) | 640 | 8 | 58 | 0,963 | 0,935 | 0,975 | 0,785 |
+| Colab (`matriculas_yolo11n_colab`) | 640 | 16 | 46 | 0,937 | 0,962 | 0,983 | 0,764 |
+| Colab (`matriculas_yolo11n_1280`) | 1280 | 4 | 60 | 0,908 | 1,000 | 0,981 | 0,792 |
+
+Solo el entrenamiento local está evaluado en test, así que estas diferencias todavía no sirven para elegir modelo. Además, son pequeñas para un conjunto de 28 imágenes.
+
 ## Pendiente
 
-- Prototipo de vídeo: seguimiento de personas y vehículos, detección de matrículas, conteo y CSV.
-- OCR de las matrículas (P4b) y comparativa entre un OCR clásico y un VLM.
+- Prototipo de vídeo: seguimiento de personas y vehículos, detección de matrículas, conteo por clase, CSV y vídeo de resultados (enlazado, porque los vídeos no se suben a GitHub).
+- OCR de las matrículas (P4b): texto en el vídeo y en el CSV, y comparativa de tiempos y acierto entre un OCR clásico y un VLM.
+- Evaluar en test los entrenamientos de Colab para elegir el modelo.
+- Extras opcionales: flujo por direcciones (+0,25), YOLO frente a RT-DETR para matrículas (+1), detección por contornos (+0,25) y anonimización (+0,25).
