@@ -222,7 +222,7 @@ matricula_en_su_caso, confianza_matricula, mx1, my1, mx2, my2, texto_matricula, 
 | Autobuses | 1 | 0 | 1 |
 | Camiones | 0 | 0 | 1 |
 
-**Anonimización (+0,25).** `seguimiento_anonimo.mp4` difumina con un filtro gaussiano a las personas y todas las matrículas detectadas, sobre el fotograma original.
+**Anonimización de personas y vehículos (+0,25).** `seguimiento_anonimo_h264.mp4` difumina con un filtro gaussiano a las personas (la caja entera) y, en los vehículos, todas las matrículas detectadas, que es lo que los identifica. Se aplica sobre el fotograma original, sin anotaciones.
 
 **Limitaciones:** el vídeo no tiene etiquetas, así que no se puede medir cuántos objetos o matrículas se pierden. Tampoco se han hecho los extras de comparación con RT-DETR ni de detección por contornos.
 
