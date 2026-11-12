@@ -17,8 +17,8 @@ Prototipo que procesa el vídeo de test (`C0142.MP4`) y:
 | Cuaderno de la comparativa de OCR (P4b) | [`P4b/VC_P4b_entrega.ipynb`](P4b/VC_P4b_entrega.ipynb) |
 | CSV de detecciones y seguimiento | [`P4/resultado_seguimiento/detecciones.csv`](P4/resultado_seguimiento/detecciones.csv) |
 | Conteo, matrículas leídas y flujo | [`conteo.csv`](P4/resultado_seguimiento/conteo.csv), [`matriculas_leidas.csv`](P4/resultado_seguimiento/matriculas_leidas.csv), [`flujo.csv`](P4/resultado_seguimiento/flujo.csv) |
-| Vídeo resultado y vídeo anonimizado | [Carpeta VideosP4 en Google Drive](https://drive.google.com/drive/folders/15SfuHr97QuRhpA5OweJGkpNzz6gs5Ni2): `seguimiento_h264.mp4` y `seguimiento_anonimo_h264.mp4` |
-| Dataset de matrículas | [YoelRuso/MatriculasVC](https://huggingface.co/datasets/YoelRuso/MatriculasVC) en Hugging Face |
+| Vídeo resultado y vídeo anonimizado | [Carpeta P4 en Google Drive](https://drive.google.com/drive/folders/15SfuHr97QuRhpA5OweJGkpNzz6gs5Ni2): `seguimiento_h264.mp4` y `seguimiento_anonimo_h264.mp4` |
+| Datasets (detector y OCR) | [Misma carpeta de Google Drive](https://drive.google.com/drive/folders/15SfuHr97QuRhpA5OweJGkpNzz6gs5Ni2): `datos_P4_matriculas.zip` (328 MB) |
 
 ## Estructura
 
@@ -27,7 +27,7 @@ VC_P4/
 ├── README.md
 ├── requirements.txt                dependencias del entorno
 ├── descargar_datos.py              descarga datos/ desde Hugging Face
-├── datos/                          (no se sube a GitHub: está en Hugging Face)
+├── datos/                          (no se sube a GitHub: está en Google Drive)
 │   ├── dataset_limpio/             dataset YOLO de matrículas usado para entrenar
 │   ├── dataset_lejanas/            matrículas reducidas (data augmentation), se genera con P4/generar_dataset_reducido.py
 │   └── matriculas_recortadas/      recortes para el OCR; ocr_dataset.csv (texto real) sí se sube
@@ -65,19 +65,16 @@ python -m ipykernel install --user --name vc_p4 --display-name "Python (VC_P4)"
 ```bash
 git clone https://github.com/YoelRuso/VC_P4.git
 cd VC_P4
-# crear el entorno (ver arriba) y descargar el dataset
-python descargar_datos.py --solo dataset
+# crear el entorno (ver arriba)
 ```
 
-Los pesos (`best.pt`) de cada entrenamiento sí se suben a GitHub (pesan unos 5 MB). Los vídeos no: `C0142.MP4` se descarga en `datos/videos/` con `python descargar_datos.py --solo video`, y los recortes para el OCR con `--solo ocr`. Los resultados de un entrenamiento hecho en Colab se descomprimen dentro de `P4/`.
+**Datos:** descargar `datos_P4_matriculas.zip` de la [carpeta de Google Drive](https://drive.google.com/drive/folders/15SfuHr97QuRhpA5OweJGkpNzz6gs5Ni2) y descomprimirlo en `datos/`. Contiene `dataset_limpio`, `dataset_lejanas` (el del modelo final) y `matriculas_recortadas` (OCR), con un `LEEME.txt` que los describe. Las imágenes contienen matrículas legibles: no redistribuir.
+
+Los pesos (`best.pt`) de cada entrenamiento sí se suben a GitHub (pesan unos 5 MB). El vídeo de test `C0142.MP4` va en `datos/videos/`. Los resultados de un entrenamiento hecho en Colab se descomprimen dentro de `P4/`.
 
 Tesseract se instala aparte ([UB-Mannheim](https://github.com/UB-Mannheim/tesseract/wiki)); su ruta está en la variable `TESSERACT` del cuaderno P4b.
 
-Los datos están en el repositorio privado de Hugging Face [YoelRuso/MatriculasVC](https://huggingface.co/datasets/YoelRuso/MatriculasVC). Tras iniciar sesión una vez con `hf auth login`, el dataset se descarga en `datos/` con:
-
-```bash
-python descargar_datos.py --solo dataset
-```
+Los miembros del grupo también pueden bajar los datos del repositorio privado de Hugging Face [YoelRuso/MatriculasVC](https://huggingface.co/datasets/YoelRuso/MatriculasVC) con `python descargar_datos.py` (tras `hf auth login`), incluido el vídeo de test (`--solo video`). Ese repositorio no incluye `dataset_lejanas`, que se genera con `python P4/generar_dataset_reducido.py`.
 
 **Equipo de pruebas:** Intel Core i5-10400F, 16 GB RAM, NVIDIA GeForce RTX 3050 (8 GB), Windows 11, PyTorch 2.8 + CUDA 12.6, Ultralytics 8.4.
 
@@ -93,7 +90,7 @@ Imágenes de vehículos con matrícula española, anotadas en Roboflow con una �
 | valid | 28 |
 | test | 31 |
 
-Acceso al dataset: [YoelRuso/MatriculasVC](https://huggingface.co/datasets/YoelRuso/MatriculasVC) en Hugging Face (licencia CC BY 4.0, la de los proyectos de Roboflow de origen).
+Acceso al dataset: `datos_P4_matriculas.zip` en la [carpeta de Google Drive](https://drive.google.com/drive/folders/15SfuHr97QuRhpA5OweJGkpNzz6gs5Ni2) (licencia CC BY 4.0, la de los proyectos de Roboflow de origen).
 
 ### Entrenamiento
 
