@@ -1,4 +1,12 @@
-ultralytics
+# PyTorch con CUDA se instala antes, con el comando de https://pytorch.org/get-started/locally/
+# (equipo de pruebas: torch 2.8.0 + CUDA 12.6)
+ultralytics==8.4.183
 lap
 ipykernel
 huggingface_hub
+matplotlib
+tqdm
+# OCR (P4b). Tesseract necesita además el programa: https://github.com/UB-Mannheim/tesseract/wiki
+easyocr==1.7.2
+pytesseract
+transformers==4.57.6

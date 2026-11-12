@@ -1,0 +1,4 @@
+modelo,n,acierto_exacto,acierto_caracter,tiempo_medio_ms
+easyocr,217,0.7051,0.8827,72.2
+tesseract,217,0.2581,0.3925,151.5
+smolvlm,217,0.8571,0.9397,1420.9

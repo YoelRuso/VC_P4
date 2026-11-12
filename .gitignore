@@ -1,7 +1,9 @@
-# Datos: datasets y vídeos no se suben (están en Hugging Face: python descargar_datos.py)
+# Datos: datasets, vídeos y recortes no se suben (están en Hugging Face: python descargar_datos.py)
 datos/*
-videos/*
-!videos/.gitkeep
+!datos/matriculas_recortadas/
+datos/matriculas_recortadas/*
+# ...salvo las etiquetas de texto hechas a mano, que necesita el cuaderno P4b
+!datos/matriculas_recortadas/*.csv
 
 # Archives
 *.zip
@@ -33,12 +35,6 @@ videos/*
 *.onnx
 *.weights
 
-# Generado por los cuadernos (lleva rutas absolutas de cada equipo)
-P4/runs/matriculas.yaml
-
-# Repositorio externo de RT-DETR: se clona aparte (ver README)
-P4/RT-DETR/
-
 # Secretos
 .env
 
@@ -47,7 +43,9 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Excepciones: gráficas del README y modelo entrenado
+# Excepciones: lo que se entrega (gráficas del README, modelo entrenado, resultados)
 !P4/runs/**/*.png
 !P4/runs/**/*.jpg
 !P4/runs/*/weights/best.pt
+!P4b/resultados_ocr/*.png
+!P4/runs/comparacion_lejanas/*.jpg

@@ -1,6 +1,24 @@
 # Práctica 4 · Detección de vehículos, matrículas y OCR
 
-Trabajo en curso. Están hechos el dataset de matrículas, el detector (YOLO11n), su versión para matrículas lejanas y la detección sobre el vídeo de test. Lo que falta está en [Pendiente](#pendiente).
+Prototipo que procesa el vídeo de test (`C0142.MP4`) y:
+
+- detecta y sigue personas y vehículos (YOLO11n + ByteTrack, con unión de pistas para corregir cambios de ID),
+- detecta sus matrículas con un YOLO11n entrenado por nosotros, también las lejanas,
+- lee el texto de las matrículas con un OCR híbrido (EasyOCR en cada fotograma + SmolVLM sobre los mejores recortes de cada vehículo), diseñado a partir de la comparativa de P4b,
+- cuenta los objetos únicos de cada clase y su dirección de salida,
+- guarda el vídeo anotado, un vídeo anonimizado y los CSV.
+
+### Entregables
+
+| Qué | Dónde |
+|---|---|
+| Cuaderno del prototipo (seguimiento, OCR, conteo, CSV, flujo, anonimización) | [`P4/seguimiento_y_csv.ipynb`](P4/seguimiento_y_csv.ipynb) |
+| Cuaderno del detector de matrículas (entrenamiento y comparación) | [`P4/VC_P4_Yolo.ipynb`](P4/VC_P4_Yolo.ipynb) |
+| Cuaderno de la comparativa de OCR (P4b) | [`P4b/VC_P4b_entrega.ipynb`](P4b/VC_P4b_entrega.ipynb) |
+| CSV de detecciones y seguimiento | [`P4/resultado_seguimiento/detecciones.csv`](P4/resultado_seguimiento/detecciones.csv) |
+| Conteo, matrículas leídas y flujo | [`conteo.csv`](P4/resultado_seguimiento/conteo.csv), [`matriculas_leidas.csv`](P4/resultado_seguimiento/matriculas_leidas.csv), [`flujo.csv`](P4/resultado_seguimiento/flujo.csv) |
+| Vídeo resultado y vídeo anonimizado | [Carpeta VideosP4 en Google Drive](https://drive.google.com/drive/folders/15SfuHr97QuRhpA5OweJGkpNzz6gs5Ni2): `seguimiento_h264.mp4` y `seguimiento_anonimo_h264.mp4` |
+| Dataset de matrículas | [YoelRuso/MatriculasVC](https://huggingface.co/datasets/YoelRuso/MatriculasVC) en Hugging Face |
 
 ## Estructura
 
@@ -8,24 +26,28 @@ Trabajo en curso. Están hechos el dataset de matrículas, el detector (YOLO11n)
 VC_P4/
 ├── README.md
 ├── requirements.txt                dependencias del entorno
-├── descargar_datos.py / .ipynb     descarga datos/ desde Hugging Face
-├── generar_dataset_reducido.py     genera datos/dataset_lejanas a partir de dataset_limpio
+├── descargar_datos.py              descarga datos/ desde Hugging Face
 ├── datos/                          (no se sube a GitHub: está en Hugging Face)
 │   ├── dataset_limpio/             dataset YOLO de matrículas usado para entrenar
-│   └── dataset_lejanas/            matrículas reducidas (data augmentation), se genera con generar_dataset_reducido.py
-├── videos/                         (no se sube a GitHub) vídeos de prueba y resultados
+│   ├── dataset_lejanas/            matrículas reducidas (data augmentation), se genera con P4/generar_dataset_reducido.py
+│   └── matriculas_recortadas/      recortes para el OCR; ocr_dataset.csv (texto real) sí se sube
 ├── P4/                             detección
-│   ├── VC_P4_Yolo.ipynb            ★ cuaderno único del modelo final: entrenamiento, comparación y vídeo
+│   ├── seguimiento_y_csv.ipynb     ★ prototipo final: seguimiento, matrículas, OCR, conteo, CSV, flujo y anonimización
+│   ├── resultado_seguimiento/      salida del prototipo: CSV, recortes de matrícula (y vídeos, que no se suben)
+│   ├── resultado_matriculas/       (no se sube) vídeo solo con las matrículas, generado por VC_P4_Yolo.ipynb
+│   ├── VC_P4_Yolo.ipynb            ★ detector de matrículas final: entrenamiento, comparación y vídeo de matrículas
+│   ├── runs/comparacion_lejanas/   tablas y hojas de contacto de la comparación de modelos
 │   ├── entrenar_matriculas.py      entrena y evalúa el detector (local, 640)
-│   ├── entrenar_matriculas.ipynb   lo mismo en cuaderno
+│   ├── generar_dataset_reducido.py genera datos/dataset_lejanas a partir de dataset_limpio
 │   ├── runs/matriculas_yolo11n/    entrenamiento local a 640: curvas, matriz de confusión, weights/best.pt
 │   ├── runs/matriculas_yolo11n_lejanas/  ★ modelo final: entrenamiento con matrículas reducidas
 │   ├── runs/matriculas_yolo11n_1280/   entrenamiento a 1280 (Colab, `batch=4`, `scale=0.9`)
 │   ├── runs/matriculas_yolo11n_test/   evaluación en test
-│   ├── load_rtdetr.py / .ipynb     carga RT-DETR con pesos COCO (aún no se ha entrenado con matrículas)
-│   ├── RT-DETR/                    (no se sube) clon de https://github.com/lyuwenyu/RT-DETR
-│   └── VC_P4.ipynb, README.md…     material de la asignatura
-└── P4b/                            OCR (material de la asignatura)
+│   └── yolo11n.pt                  YOLO11n preentrenado en COCO (personas y vehículos)
+└── P4b/                            OCR
+    ├── VC_P4b_entrega.ipynb        ★ comparativa EasyOCR / Tesseract / SmolVLM
+    ├── recortar_matriculas.py      genera datos/matriculas_recortadas a partir de dataset_limpio
+    └── resultados_ocr/             predicciones, resumen y gráficas de la comparativa
 ```
 
 ## Entorno
@@ -33,6 +55,7 @@ VC_P4/
 ```bash
 conda create --name VC_P4 python=3.9.5
 conda activate VC_P4
+# antes, PyTorch con CUDA según https://pytorch.org/get-started/locally/
 pip install -r requirements.txt
 python -m ipykernel install --user --name vc_p4 --display-name "Python (VC_P4)"
 ```
@@ -44,11 +67,11 @@ git clone https://github.com/YoelRuso/VC_P4.git
 cd VC_P4
 # crear el entorno (ver arriba) y descargar el dataset
 python descargar_datos.py --solo dataset
-# solo si se usa RT-DETR
-git clone https://github.com/lyuwenyu/RT-DETR P4/RT-DETR
 ```
 
-Los pesos (`best.pt`) de cada entrenamiento sí se suben a GitHub (pesan unos 5 MB). Los vídeos no: `C0142.MP4` se descarga en `datos/videos/` con `python descargar_datos.py --solo video`. Los resultados de un entrenamiento hecho en Colab se descomprimen dentro de `P4/`.
+Los pesos (`best.pt`) de cada entrenamiento sí se suben a GitHub (pesan unos 5 MB). Los vídeos no: `C0142.MP4` se descarga en `datos/videos/` con `python descargar_datos.py --solo video`, y los recortes para el OCR con `--solo ocr`. Los resultados de un entrenamiento hecho en Colab se descomprimen dentro de `P4/`.
+
+Tesseract se instala aparte ([UB-Mannheim](https://github.com/UB-Mannheim/tesseract/wiki)); su ruta está en la variable `TESSERACT` del cuaderno P4b.
 
 Los datos están en el repositorio privado de Hugging Face [YoelRuso/MatriculasVC](https://huggingface.co/datasets/YoelRuso/MatriculasVC). Tras iniciar sesión una vez con `hf auth login`, el dataset se descarga en `datos/` con:
 
@@ -104,7 +127,7 @@ Las diferencias son pequeñas para un conjunto de 28 imágenes. El problema real
 
 En el dataset, la matrícula más pequeña mide 31 px de ancho a `imgsz=640`. En el vídeo de test, un coche lejano tiene una matrícula de unos 17×4 px, y además `imgsz=1280` reduce el fotograma de 1920 px y la deja en unos 11 px.
 
-El entrenamiento, la comparación y el vídeo final están en el cuaderno [`P4/VC_P4_Yolo.ipynb`](P4/VC_P4_Yolo.ipynb). El dataset se genera aparte, una sola vez, con `python generar_dataset_reducido.py`. Con la configuración por defecto usa los resultados guardados y solo genera el vídeo final (unos 5 minutos); cada paso largo se activa con una opción en la celda de configuración.
+El entrenamiento, la comparación y el vídeo final están en el cuaderno [`P4/VC_P4_Yolo.ipynb`](P4/VC_P4_Yolo.ipynb). El dataset se genera aparte, una sola vez, con `python P4/generar_dataset_reducido.py`. Con la configuración por defecto usa los resultados guardados y solo genera el vídeo final (unos 5 minutos); cada paso largo se activa con una opción en la celda de configuración.
 
 **Dataset (`datos/dataset_lejanas`):** 1600 lienzos de 960×960 (1200 train, 200 valid, 200 test), creados solo a partir de `dataset_limpio`, sin usar el vídeo de test y sin mezclar imágenes entre splits. Sobre una imagen de fondo se pegan recortes de coches reducidos, con el borde difuminado, para que la matrícula mida entre 12 y 120 px (mediana de 27 px en train). Se añade desenfoque y compresión JPEG para imitar un coche lejano en vídeo, y alrededor de un 10 % de los lienzos son negativos, sin matrículas etiquetadas.
 
@@ -143,9 +166,111 @@ Con matrículas normales rinde prácticamente igual: la diferencia de recall es 
 
 **Limitaciones:** sin etiquetas en el vídeo no se sabe cuántas matrículas se pierden. A estos tamaños se detectan, pero no se pueden leer con OCR.
 
-## Pendiente
+## 3. Prototipo de vídeo: seguimiento, matrículas, OCR y CSV
 
-- Completar el prototipo de vídeo: seguimiento de personas y vehículos, conteo por clase y CSV. La detección de matrículas ya está en `VC_P4_Yolo.ipynb`.
-- Enlazar el vídeo de resultados (`videos/salida_C0142_lejanas.mp4`), porque los vídeos no se suben a GitHub.
-- OCR de las matrículas (P4b): texto en el vídeo y en el CSV, y comparativa de tiempos y acierto entre un OCR clásico y un VLM.
-- Extras opcionales: flujo por direcciones (+0,25), YOLO frente a RT-DETR para matrículas (+1), detección por contornos (+0,25) y anonimización (+0,25).
+Cuaderno [`P4/seguimiento_y_csv.ipynb`](P4/seguimiento_y_csv.ipynb). Se abre desde la carpeta `P4` y se pulsa **Ejecutar todo**; tarda unos 12 minutos con la RTX 3050, 5 de ellos de SmolVLM. Recorre el vídeo varias veces:
+
+1. **Pasada 1.** YOLO11n (COCO) con `track(persist=True)` y una configuración propia de ByteTrack (`track_buffer=150`, umbrales más bajos) sigue personas, coches, motos, autobuses y camiones a `imgsz=1280`. En el mismo fotograma, el detector de matrículas lejanas busca matrículas a `imgsz=1920`.
+2. **Unión de pistas.** Cuando un coche pasa por delante de otros aparcados, el tracker pierde los de detrás y, al reaparecer, les da un ID nuevo. Se unen dos pistas del mismo tipo de objeto si una empieza como mucho 300 fotogramas después de que acabe la otra y sus cajas se solapan (IoU ≥ 0,3). Se descartan los objetos que aparecen en menos de 10 fotogramas.
+3. **Matrícula de cada vehículo.** Una matrícula se asigna al vehículo que la contiene si tiene forma de matrícula y está en su parte baja. Si caen varias en un vehículo, se queda la de más confianza. Las que no caen en ningún vehículo se descartan.
+4. **Pasada OCR híbrida.** Los recortes se toman del fotograma sin anotar, y solo se aceptan lecturas con formato de matrícula española.
+   - EasyOCR (alfabeto `0-9A-Z`) lee todos los recortes, unos 12 ms cada uno.
+   - Para cada vehículo se guardan sus 7 recortes más grandes y nítidos (anchura × varianza del Laplaciano), y SmolVLM-500M lee solo esos, unos 1,5 s cada uno.
+   - El texto del vehículo es el que SmolVLM ha leído al menos 2 veces (o 1 si coincide con EasyOCR); si no hay, el más votado de EasyOCR. Una lectura suelta del VLM no basta, porque con placas borrosas puede inventarse caracteres.
+5. **Pasada 2.** Se dibujan las cajas, los IDs, las matrículas, su texto y un contador por clase. Se escriben el CSV y el vídeo anonimizado. El texto de la matrícula **solo aparece desde el primer fotograma en que se leyó**, y se mantiene después aunque la placa deje de verse.
+
+### CSV (`P4/resultado_seguimiento/detecciones.csv`)
+
+Una fila por objeto y fotograma, con los campos del enunciado:
+
+```
+fotograma, tipo_objeto, confianza, identificador_tracking, x1, y1, x2, y2,
+matricula_en_su_caso, confianza_matricula, mx1, my1, mx2, my2, texto_matricula, lectura_fotograma
+```
+
+`texto_matricula` es el texto final del vehículo, a partir del primer fotograma en que se leyó. `lectura_fotograma` es lo que se ha leído en ese fotograma concreto, con EasyOCR o con SmolVLM. Además se generan `conteo.csv`, `matriculas_leidas.csv` (una fila por vehículo con matrícula detectada) y `flujo.csv` (dirección de cada objeto).
+
+### Resultados en el vídeo de test (`C0142.MP4`, 2832 fotogramas)
+
+| Clase | Objetos únicos |
+|---|---|
+| Personas | 51 |
+| Coches | 93 |
+| Motos | 2 |
+| Autobuses | 2 |
+| Camiones | 1 |
+
+- El tracker genera 247 IDs; tras unir pistas quedan 166 objetos, y 149 aparecen en al menos 10 fotogramas. Sin la unión de pistas, cada coche aparcado tapado por otro contaría dos o tres veces.
+- El conteo es una estimación: dos objetos que se cruzan pueden fusionarse, y una oclusión muy larga puede partir un objeto en dos. Muchos de los coches son los aparcados al fondo.
+- **Matrículas:** se detecta matrícula en 40 vehículos (2652 detecciones) y se lee la de 11 (`matriculas_leidas.csv`). Comparando a ojo con el mejor recorte de cada una:
+
+| Resultado | Matrículas |
+|---|---|
+| Correctas (8) | `3713LKC`, `6713HCR`, `2914FGN`, `0053JFW`, `8536LKJ`, `5895LTR`, `1770JYG`, `1965KBP` |
+| Dudosas, recorte muy borroso (2) | `3902FXD`, `9059LRY` |
+| Errónea (1) | `8098JXM`: en el recorte pone `8098JXW` |
+
+- **OCR híbrido frente a solo EasyOCR:** EasyOCR solo lee 2 de esos 11 vehículos, y uno mal (`2098JXV`). Con placas de 100-150 px movidas, como `1770 JYG`, devuelve fragmentos (`1TD`) que el filtro de formato descarta. SmolVLM lee esas mismas placas. Cuesta unos 5 minutos más (203 recortes), frente a la hora que tardaría con todas las detecciones.
+- Las otras 29 matrículas detectadas no se leen: miden menos de 40 px, o el coche pasa tan rápido que la placa sale borrosa. Esas matrículas se detectan, pero no llevan texto en el vídeo ni en el CSV.
+
+### Extras
+
+**Flujo por direcciones (+0,25).** Se compara el centro de cada objeto al principio y al final de su recorrido (umbral de 80 px para considerarlo quieto):
+
+| Clase | Izquierda | Derecha | Quieto |
+|---|---|---|---|
+| Coches | 37 | 9 | 47 |
+| Personas | 7 | 19 | 25 |
+| Motos | 2 | 0 | 0 |
+| Autobuses | 1 | 0 | 1 |
+| Camiones | 0 | 0 | 1 |
+
+**Anonimización (+0,25).** `seguimiento_anonimo.mp4` difumina con un filtro gaussiano a las personas y todas las matrículas detectadas, sobre el fotograma original.
+
+**Limitaciones:** el vídeo no tiene etiquetas, así que no se puede medir cuántos objetos o matrículas se pierden. Tampoco se han hecho los extras de comparación con RT-DETR ni de detección por contornos.
+
+## 4. Comparativa de OCR (P4b)
+
+Cuaderno [`P4b/VC_P4b_entrega.ipynb`](P4b/VC_P4b_entrega.ipynb). La lista `MODELOS` elige qué modelos se comparan.
+
+**Datos:** 217 recortes de matrícula de `datos/matriculas_recortadas/ocr_dataset.csv`, generados con `P4b/recortar_matriculas.py` a partir de las cajas anotadas del dataset. El texto real sale del nombre del archivo, o de una lectura manual en las provinciales. `recortar_matriculas.py` marca 43 recortes como difíciles: pequeños, borrosos, inclinados o con varias placas.
+
+**Modelos:**
+
+| Tipo | Modelo | Configuración |
+|---|---|---|
+| OCR clásico | EasyOCR (`es`, GPU) | `allowlist=0-9A-Z` |
+| OCR clásico | Tesseract 5 (`eng`) | gris → altura 96 px → Otsu → borde blanco, `--psm 7`, lista blanca `0-9A-Z` |
+| VLM | SmolVLM-500M-Instruct (bf16, GPU) | *"Read the license plate in the image. Answer only with its characters."*, decodificación greedy, 16 tokens |
+
+**Mismas condiciones para todos:** mismas imágenes y misma normalización de la salida (mayúsculas, solo alfanuméricos y el fragmento con formato de matrícula). Se hace una inferencia de calentamiento antes de cronometrar, y se mide solo el tiempo de inferencia por recorte. Equipo de pruebas: el indicado en [Entorno](#entorno).
+
+**Métricas:**
+
+- *Acierto exacto*: la matrícula completa es correcta.
+- *Acierto por carácter*: `1 − distancia de Levenshtein / longitud real`.
+- *Tiempo medio* por recorte.
+
+| Modelo | Acierto exacto | Acierto por carácter | Tiempo medio |
+|---|---|---|---|
+| EasyOCR | 70,5 % | 88,3 % | **72 ms** |
+| Tesseract | 25,8 % | 39,3 % | 152 ms |
+| SmolVLM-500M | **85,7 %** | **94,0 %** | 1421 ms |
+
+![Comparativa OCR](P4b/resultados_ocr/comparativa_ocr.png)
+
+| Modelo | Fáciles (174) | Difíciles (43) |
+|---|---|---|
+| EasyOCR | 79,9 % | 32,6 % |
+| Tesseract | 29,3 % | 11,6 % |
+| SmolVLM-500M | 91,4 % | 62,8 % |
+
+![Acierto por dificultad](P4b/resultados_ocr/acierto_por_dificultad.png)
+
+### Conclusiones
+
+- **El VLM es el más preciso**, con 15 puntos más de acierto exacto que EasyOCR, y sobre todo **el más robusto en recortes difíciles** (63 % frente a 33 %). Su modelo de lenguaje le permite reconstruir caracteres borrosos o parcialmente tapados.
+- **Pero es unas 20 veces más lento** (≈1,4 s por recorte frente a 72 ms). En el vídeo hay 2652 detecciones de matrícula: con SmolVLM serían más de 1 hora solo de OCR, frente a unos 30 s con EasyOCR.
+- **EasyOCR por sí solo no basta para el vídeo**: es rápido, pero en el vídeo de test solo lee 2 de los 11 vehículos que sí se pueden leer, porque sus placas están movidas.
+- **Tesseract no sirve para matrículas** sin un preprocesado específico (segmentar caracteres, quitar la franja azul, corregir la perspectiva). Está pensado para documentos y a menudo devuelve la cadena vacía.
+- **Por eso el prototipo usa un esquema híbrido**: EasyOCR en cada fotograma y SmolVLM solo sobre los 7 mejores recortes de cada vehículo. Así se aprovecha la precisión del VLM con un coste asumible (ver [sección 3](#3-prototipo-de-vídeo-seguimiento-matrículas-ocr-y-csv)).

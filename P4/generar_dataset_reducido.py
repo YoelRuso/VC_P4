@@ -9,7 +9,7 @@ Cada imagen es un lienzo de 960x960 con la escala de píxel del vídeo (1920x108
 Cada split usa solo sus propias imágenes, así test no comparte fotos con train.
 El vídeo de test no se usa para generar nada. Con la misma semilla sale siempre el mismo dataset.
 
-Uso: python generar_dataset_reducido.py
+Uso (desde cualquier carpeta): python P4/generar_dataset_reducido.py
 """
 import csv
 import random
@@ -19,7 +19,7 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-RAIZ = Path(__file__).resolve().parent
+RAIZ = Path(__file__).resolve().parent.parent  # raíz del proyecto (este script está en P4)
 ORIGEN = RAIZ / "datos" / "dataset_limpio"
 DESTINO = RAIZ / "datos" / "dataset_lejanas"
 LIENZOS = {"train": 1200, "valid": 200, "test": 200}

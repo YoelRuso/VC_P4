@@ -1,0 +1,652 @@
+modelo,recorte,dificultad,real,bruto,prediccion,exacto,distancia,tiempo_ms
+easyocr,todas/0041LZN.png,dificil,0041LZN,00ZIEZV,00ZIEZV,0,4,42.4
+easyocr,todas/0129KMK.png,facil,0129KMK,0129KMK,0129KMK,1,0,78.4
+easyocr,todas/0192DSP.png,dificil,0192DSP,DSP 10192,DSP10192,0,7,127.4
+easyocr,todas/0195JHM.png,facil,0195JHM,0195JHM,0195JHM,1,0,78.3
+easyocr,todas/0225JWL.png,dificil,0225JWL,0225JL,0225JL,0,1,97.9
+easyocr,todas/0226MPP.png,facil,0226MPP,E 0226 MPP,0226MPP,1,0,90.2
+easyocr,todas/0278KXW.png,facil,0278KXW,0278 KXWJ,0278KXW,1,0,32.1
+easyocr,todas/0425KDK.png,dificil,0425KDK,0425 KDK E,0425KDK,1,0,138.6
+easyocr,todas/0492MTT.png,facil,0492MTT,0492MTT,0492MTT,1,0,55.3
+easyocr,todas/0560JDX.png,facil,0560JDX,JDX 0560 E,JDX0560E,0,6,146.2
+easyocr,todas/0649DHS.png,facil,0649DHS,E 0649 DSH,0649DSH,0,2,105.9
+easyocr,todas/0802HFP.png,facil,0802HFP,0802 HFP,0802HFP,1,0,63.9
+easyocr,todas/0804CZV.png,facil,0804CZV,080L CZV,080LCZV,0,1,65.3
+easyocr,todas/0874LNH.png,dificil,0874LNH,0872UNA,0872UNA,0,3,62.6
+easyocr,todas/0907JRF.png,facil,0907JRF,5 0907 JRF,0907JRF,1,0,165.3
+easyocr,todas/1072FRD.png,facil,1072FRD,E FRD 1072,FRD1072,0,6,131.4
+easyocr,todas/1159FPG.png,facil,1159FPG,1159FPG,1159FPG,1,0,24.1
+easyocr,todas/1319FSX.png,facil,1319FSX,1319 FSX,1319FSX,1,0,41.9
+easyocr,todas/1426JVT.png,facil,1426JVT,1226JVT,1226JVT,0,1,68.6
+easyocr,todas/1498JBZ.png,facil,1498JBZ,1498 JBZ,1498JBZ,1,0,124.9
+easyocr,todas/1556GMZ.png,facil,1556GMZ,1556 GHZ,1556GHZ,0,1,104.7
+easyocr,todas/1565HTS.png,facil,1565HTS,E 1565HTS,1565HTS,1,0,132.0
+easyocr,todas/15989862207427.png,facil,0478LFR,0478LFR,0478LFR,1,0,55.9
+easyocr,todas/1599DLB.png,facil,1599DLB,1599DLB,1599DLB,1,0,65.6
+easyocr,todas/1612MHX.png,facil,1612MHX,1612MHX,1612MHX,1,0,65.9
+easyocr,todas/1637067480508.png,facil,3685HDP,3685 HDP E,3685HDP,1,0,85.3
+easyocr,todas/16488802684311.png,facil,8878LWB,8878LIB,8878LIB,0,1,20.6
+easyocr,todas/1755JKV.png,facil,1755JKV,1755JKV,1755JKV,1,0,64.7
+easyocr,todas/1819LPN.png,dificil,1819LPN,1819 LPN,1819LPN,1,0,69.0
+easyocr,todas/1855MHN.png,facil,1855MHN,E 1855 MHN,1855MHN,1,0,127.3
+easyocr,todas/1949LLT.png,facil,1949LLT,1949LLI,1949LLI,0,1,25.3
+easyocr,todas/2153GYX.png,facil,2153GYX,2153GYX E,2153GYX,1,0,106.7
+easyocr,todas/2202LNW.png,dificil,2202LNW,LNW 2202,LNW2202,0,6,74.9
+easyocr,todas/2344KJP.png,facil,2344KJP,E 2344KJP,2344KJP,1,0,113.3
+easyocr,todas/2522LNH_0.png,dificil,2522LNH,2522LNA,2522LNA,0,1,53.7
+easyocr,todas/2522LNH_1.png,dificil,2522LNH,,,0,7,39.3
+easyocr,todas/2711LKN.png,facil,2711LKN,2711LKNI,2711LKN,1,0,23.8
+easyocr,todas/2841LJX.png,dificil,2841LJX,2841 5 LJX HONDA VCMOTO VALLESCAR,8415LJX,0,2,145.0
+easyocr,todas/2885BKJ.png,dificil,2885BKJ,2885BX,2885BX,0,2,100.9
+easyocr,todas/2942HFB.png,facil,2942HFB,2IG2HFB,2IG2HFB,0,2,21.9
+easyocr,todas/2953JHW.png,dificil,2953JHW,6 2953 JHW,2953JHW,1,0,109.1
+easyocr,todas/2956MJG.png,facil,2956MJG,2956MJG E,2956MJG,1,0,78.2
+easyocr,todas/3046KWK.png,facil,3046KWK,3046KUK,3046KUK,0,1,59.4
+easyocr,todas/3161LNC.png,facil,3161LNC,3161LNC,3161LNC,1,0,57.1
+easyocr,todas/3340JMF.png,facil,3340JMF,E 3340 JMF,3340JMF,1,0,118.3
+easyocr,todas/3451LGB.png,facil,3451LGB,3451LGB,3451LGB,1,0,53.7
+easyocr,todas/3582LBT.png,dificil,3582LBT,65824 LBT,5824LBT,0,2,48.0
+easyocr,todas/3587DCX.png,facil,3587DCX,E 13587DCX,3587DCX,1,0,136.3
+easyocr,todas/3587DCX_foto2.png,facil,3587DCX,E 3587 DCX,3587DCX,1,0,131.3
+easyocr,todas/3660CRT.png,facil,3660CRT,E 3660CRT,3660CRT,1,0,136.6
+easyocr,todas/3691MTY.png,facil,3691MTY,3691 MTY LESLAC0M,3691MTY,1,0,104.5
+easyocr,todas/3838KWB.png,facil,3838KWB,3838KWB,3838KWB,1,0,21.9
+easyocr,todas/3964LXV.png,dificil,3964LXV,8964 LXV,8964LXV,0,1,54.0
+easyocr,todas/3964LXV_foto2.png,facil,3964LXV,6 3964 LXV,3964LXV,1,0,170.9
+easyocr,todas/3.png,facil,4810FYN,4810FYN,4810FYN,1,0,23.2
+easyocr,todas/4000GFL.png,dificil,4000GFL,LOOOGFC,LOOOGFC,0,5,70.2
+easyocr,todas/4078BVX_0.png,dificil,4078BVX,4078 BVX,4078BVX,1,0,76.2
+easyocr,todas/4078BVX_1.png,dificil,4078BVX,6157M0,6157M0,0,7,67.4
+easyocr,todas/4125DVF.png,facil,4125DVF,125DVF,125DVF,0,1,21.6
+easyocr,todas/4181GWT.png,facil,4181GWT,4181GHT,4181GHT,0,1,45.3
+easyocr,todas/4182KMG.png,dificil,4182KMG,44182KVG,4182KVG,0,1,104.9
+easyocr,todas/4481DKX.png,facil,4481DKX,4481DKX,4481DKX,1,0,51.3
+easyocr,todas/4674FHC.png,facil,4674FHC,E 467LFHC,467LFHC,0,1,96.6
+easyocr,todas/4674FHC_foto2.png,facil,4674FHC,E 4674FHC,4674FHC,1,0,144.5
+easyocr,todas/4757GSY.png,facil,4757GSY,4757GSY,4757GSY,1,0,64.9
+easyocr,todas/4841LFS.png,facil,4841LFS,4841LFS,4841LFS,1,0,63.1
+easyocr,todas/4950KZK.png,facil,4950KZK,4950KZK,4950KZK,1,0,36.3
+easyocr,todas/4.png,facil,1049LDV,1049LDV,1049LDV,1,0,26.8
+easyocr,todas/5052HLJ.png,facil,5052HLJ,5052 HLJ,5052HLJ,1,0,97.0
+easyocr,todas/5172LTZ.png,facil,5172LTZ,5172 LTZ MAP EGARMAZMOTOR TERRASSA 3097003011 MAP,5172LTZ,1,0,198.0
+easyocr,todas/5215HSH.png,facil,5215HSH,5215HSH TUT GS5 EEV29,5215HSH,1,0,221.1
+easyocr,todas/5215HXL.png,facil,5215HXL,5215 HXL,5215HXL,1,0,99.6
+easyocr,todas/5239LSB.png,facil,5239LSB,5239 LSB,5239LSB,1,0,78.4
+easyocr,todas/5240KSW.png,facil,5240KSW,5240 KSY,5240KSY,0,1,88.9
+easyocr,todas/5275HGY.png,facil,5275HGY,E 5275HGY,5275HGY,1,0,118.2
+easyocr,todas/5275HGY_foto2.png,facil,5275HGY,E 5275HGY,5275HGY,1,0,167.3
+easyocr,todas/5422MSY.png,dificil,5422MSY,6 5,65,0,7,74.3
+easyocr,todas/5493DHZ.png,dificil,5493DHZ,543 DAZ,543DAZ,0,2,78.7
+easyocr,todas/5789JHB.png,facil,5789JHB,2 5789 JHB,5789JHB,1,0,117.3
+easyocr,todas/5796DKP.png,facil,5796DKP,2 5796 DKP,5796DKP,1,0,152.3
+easyocr,todas/5796DKP_foto2.png,facil,5796DKP,E 5796 DKP,5796DKP,1,0,128.6
+easyocr,todas/5921LMH.png,dificil,5921LMH,5921 ZE,5921ZE,0,3,64.2
+easyocr,todas/5.png,facil,5025JJM,5025JJM,5025JJM,1,0,21.3
+easyocr,todas/6005KFV.png,facil,6005KFV,6005 KFV,6005KFV,1,0,67.5
+easyocr,todas/6040DLX.png,facil,6040DLX,6040DLX 1AFOUS AUTOUOOONTIL 0J7150170SEMIMEMAT,6040DLX,1,0,111.7
+easyocr,todas/6298KSN_0.png,dificil,6298KSN,6298KSN,6298KSN,1,0,21.6
+easyocr,todas/6298KSN_1.png,dificil,6298KSN,1120KSH,1120KSH,0,5,50.9
+easyocr,todas/6299JJL.png,facil,6299JJL,6299JJD,6299JJD,0,1,56.2
+easyocr,todas/6401JBX.png,facil,6401JBX,E 6401 JBX,6401JBX,1,0,146.0
+easyocr,todas/6445HNP.png,dificil,6445HNP,6445HNP,6445HNP,1,0,78.4
+easyocr,todas/6554BNX.png,facil,6554BNX,5 6554 BNX,6554BNX,1,0,149.8
+easyocr,todas/6704KNN.png,facil,6704KNN,67OLKNN,67OLKNN,0,2,21.8
+easyocr,todas/6775BNF.png,facil,6775BNF,E 6775BNF,6775BNF,1,0,100.1
+easyocr,todas/6929LKK.png,facil,6929LKK,5 6929LKK,6929LKK,1,0,133.4
+easyocr,todas/7153JWD.png,facil,7153JWD,E 7153JID,E7153JI,0,3,117.6
+easyocr,todas/7254LJJ.png,dificil,7254LJJ,7254LJJ,7254LJJ,1,0,80.3
+easyocr,todas/7270GVF.png,facil,7270GVF,7270GVF,7270GVF,1,0,57.6
+easyocr,todas/7318GSB.png,facil,7318GSB,7318GSB,7318GSB,1,0,36.8
+easyocr,todas/7332JKC.png,facil,7332JKC,7332 JKC QMSTERAS,7332JKC,1,0,108.5
+easyocr,todas/7746KBG.png,facil,7746KBG,7746KBG,7746KBG,1,0,32.3
+easyocr,todas/7963KNH.png,dificil,7963KNH,6 7963KNH VC1 IERIOSEPITAT 752552,7963KNH,1,0,189.0
+easyocr,todas/7.png,facil,1104CZK,1104 CZK,1104CZK,1,0,31.5
+easyocr,todas/8014LXF.png,facil,8014LXF,EVWF,EVWF,0,6,26.7
+easyocr,todas/8168GJG.png,facil,8168GJG,8168GJG,8168GJG,1,0,24.2
+easyocr,todas/8597FSC.png,facil,8597FSC,8597 FSC,8597FSC,1,0,73.3
+easyocr,todas/8691KPN.png,facil,8691KPN,8691KPN,8691KPN,1,0,60.4
+easyocr,todas/8712HJG.png,facil,8712HJG,8712HJG,8712HJG,1,0,73.0
+easyocr,todas/8727JTC.png,facil,8727JTC,E 8727 JTC,8727JTC,1,0,132.6
+easyocr,todas/8727JTC_foto2.png,facil,8727JTC,E 8727 JTC,8727JTC,1,0,104.7
+easyocr,todas/8778LVY.png,facil,8778LVY,8778LVY GNO,8778LVY,1,0,59.8
+easyocr,todas/8903KPT_0.png,dificil,8903KPT,8903 KPT,8903KPT,1,0,27.0
+easyocr,todas/8903KPT_1.png,dificil,8903KPT,,,0,7,33.8
+easyocr,todas/8953JXP.png,facil,8953JXP,E 8953 JXP,8953JXP,1,0,111.0
+easyocr,todas/8.png,facil,4577JNF,2577JNF,2577JNF,0,1,52.8
+easyocr,todas/9063MPD.png,dificil,9063MPD,9603 MPD 90222,9603MPD,0,2,86.0
+easyocr,todas/9395MSB.png,facil,9395MSB,MSB 9395 E C3X2REIG,MSB9395EC,0,6,164.7
+easyocr,todas/9498LCN.png,dificil,9498LCN,9498LCN,9498LCN,1,0,23.8
+easyocr,todas/9532GVC.png,dificil,9532GVC,9532 GVG,9532GVG,0,1,81.4
+easyocr,todas/9542KDC.png,facil,9542KDC,9542KDC,9542KDC,1,0,31.2
+easyocr,todas/9603LFP.png,facil,9603LFP,E 9603LFP,9603LFP,1,0,75.2
+easyocr,todas/9603MPD.png,facil,9603MPD,9603 MPD QUADIS,9603MPD,1,0,79.4
+easyocr,todas/9786KTP.png,facil,9786KTP,E 9786KTP SOLMOBIL QUADIS,9786KTP,1,0,116.3
+easyocr,todas/9883GTM.png,facil,9883GTM,E 9883GTM,9883GTM,1,0,138.7
+easyocr,todas/CNP2309AW.png,facil,CNP2309AW,CNP23O9A,CNP23O9A,0,2,21.9
+easyocr,todas/Coches-mas-vendidos-Espana-2018.png,facil,0310RCU,0310RCU,0310RCU,1,0,20.9
+easyocr,todas/como-saber-que-ano-es-tu-coche-matricula.png,facil,0019GVM,0019 GVM,0019GVM,1,0,65.1
+easyocr,todas/GC4370BV_0.png,dificil,GC4370BV,GCL370BV,GCL370BV,0,1,21.4
+easyocr,todas/GC4370BV_1.png,dificil,0635LYZ,0635LYZ,0635LYZ,1,0,24.3
+easyocr,todas/GR5101AT.png,dificil,GR5101AT,,,0,8,8.1
+easyocr,todas/Imagen-de-WhatsApp-2022-11-14-a-las-09-52-21.png,facil,4041LHK,LO41LHK,LO41LHK,0,2,29.4
+easyocr,todas/Imagen-de-WhatsApp-2022-11-14-a-las-09-52-23.png,facil,GC4905BV,GC4905BV,GC4905BV,1,0,29.7
+easyocr,todas/imagen8709_NM8710_MG7782316.png,facil,2021AXP,2021AXP,2021AXP,1,0,19.8
+easyocr,todas/IMG-20221114-WA0072.png,facil,0239GLK,0239 GLK,0239GLK,1,0,33.0
+easyocr,todas/IMG-20221114-WA0073.png,facil,7470GVH,74706VH,74706VH,0,1,21.0
+easyocr,todas/IMG-20221114-WA0074.png,facil,6631KWY,6631KY,6631KY,0,1,21.8
+easyocr,todas/IMG-20221114-WA0075.png,facil,4511HTH,451IHTH,451IHTH,0,1,21.4
+easyocr,todas/IMG-20221114-WA0076.png,facil,4597HXL,4597 HXL,4597HXL,1,0,28.8
+easyocr,todas/IMG-20221114-WA0077.png,facil,8433LTC,8433LIC,8433LIC,0,1,24.6
+easyocr,todas/IMG-20221114-WA0078.png,facil,0063HSJ,0063HSJ,0063HSJ,1,0,25.1
+easyocr,todas/IMG-20221114-WA0079.png,facil,3343DYL,3343 DYL,3343DYL,1,0,39.3
+easyocr,todas/IMG-20221114-WA0080.png,facil,5930FMT,5930FMTI,5930FMT,1,0,26.1
+easyocr,todas/IMG-20221114-WA0081.png,facil,2496BTM,2496BTM,2496BTM,1,0,27.1
+easyocr,todas/IMG-20221114-WA0082.png,dificil,5670JKF,5670UKA,5670UKA,0,2,20.5
+easyocr,todas/IMG-20221114-WA0083.png,facil,4138KFK,4138KFK,4138KFK,1,0,25.0
+easyocr,todas/IMG-20221114-WA0084.png,facil,5791FTD,5791 FTD,5791FTD,1,0,69.7
+easyocr,todas/IMG-20221114-WA0085.png,facil,0635LYZ,0635LYZ,0635LYZ,1,0,21.0
+easyocr,todas/IMG-20221114-WA0086.png,facil,9556KTR,9556 KTR,9556KTR,1,0,31.2
+easyocr,todas/IMG-20221114-WA0087.png,facil,7484HWF,748LHWF,748LHWF,0,1,22.3
+easyocr,todas/IMG-20221114-WA0088.png,facil,6656JPW,6656JPW,6656JPW,1,0,27.2
+easyocr,todas/IMG-20221114-WA0089.png,facil,0523HNF,0523HNF,0523HNF,1,0,23.0
+easyocr,todas/IMG-20221114-WA0090.png,facil,4103HMX,4103HMX,4103HMX,1,0,58.3
+easyocr,todas/IMG-20221114-WA0091.png,facil,GC2670CM,GC2670CM,GC2670CM,1,0,21.9
+easyocr,todas/IMG-20221114-WA0092.png,facil,8686LLJ,8686LLJ,8686LLJ,1,0,23.5
+easyocr,todas/IMG-20221114-WA0093.png,dificil,9311BMF,L8BG,L8BG,0,6,34.4
+easyocr,todas/IMG-20221114-WA0094.png,facil,3587KSG,3587KSG,3587KSG,1,0,21.1
+easyocr,todas/IMG-20221114-WA0095.png,facil,0849GSD,0849GSD,0849GSD,1,0,21.7
+easyocr,todas/IMG-20221114-WA0096.png,facil,1805GTP,1805GTP,1805GTP,1,0,28.2
+easyocr,todas/IMG-20221114-WA0097.png,facil,9160JBM,9160JBM,9160JBM,1,0,22.0
+easyocr,todas/IMG-20221114-WA0098.png,facil,9780HCF,9780HCF,9780HCF,1,0,22.1
+easyocr,todas/IMG-20221114-WA0099.png,facil,1268CDN,1268CDN,1268CDN,1,0,26.1
+easyocr,todas/IMG20221114082327_0.png,dificil,7430HNM,7430HNM,7430HNM,1,0,27.6
+easyocr,todas/IMG20221114082327_1.png,dificil,7110FPJ,7110FPJ,7110FPJ,1,0,22.9
+easyocr,todas/IMG20221114082331.png,facil,7430HNM,7430HNM,7430HNM,1,0,60.5
+easyocr,todas/IMG20221114082335.png,facil,7110FPJ,7110FPJ,7110FPJ,1,0,63.5
+easyocr,todas/IMG20221114082338_0.png,dificil,7927JHX,TTT,TTT,0,7,59.2
+easyocr,todas/IMG20221114082338_1.png,dificil,6401DWL,6401DWL,6401DWL,1,0,54.7
+easyocr,todas/IMG20221114113754.png,facil,8916BDG,8916BDG,8916BDG,1,0,43.6
+easyocr,todas/IMG20221114113800.png,facil,4324KRD,4324KRD RENAULTAZUDTURIS POLINDARINAGA MSA,4324KRD,1,0,116.9
+easyocr,todas/IMG20221114113807.png,facil,2465DYD,E 2465DYD AUTOSRERUESTOSMMESA 0922130000 MGUANCHA,2465DYD,1,0,119.1
+easyocr,todas/IMG20221114113823.png,facil,3821GYG,3821GYG,3821GYG,1,0,37.8
+easyocr,todas/IMG20221114113830.png,facil,0674BZH,0674BZH E,0674BZH,1,0,77.9
+easyocr,todas/IMG20221114113836.png,facil,3027LMJ,3027LMJ,3027LMJ,1,0,42.6
+easyocr,todas/IMG20221114113843.png,facil,4928JBF,E 4928 JBF,4928JBF,1,0,87.3
+easyocr,todas/IMG20221114113849.png,facil,9074FYM,9074FYM E,9074FYM,1,0,74.1
+easyocr,todas/IMG20221114113902.png,facil,6352LNB,E 6352LNB,6352LNB,1,0,88.2
+easyocr,todas/IMG20221114113915.png,facil,GC8300CB,GC8300CB,GC8300CB,1,0,68.2
+easyocr,todas/IMG20221114113931.png,facil,8590LYT,8590LYT,8590LYT,1,0,37.7
+easyocr,todas/IMG20221114113935.png,facil,1336FLG,E 1336FLG,1336FLG,1,0,100.0
+easyocr,todas/IMG20221114113948.png,facil,4452HYG,E 4452HYG EUTOSO5OCOM,4452HYG,1,0,115.5
+easyocr,todas/IMG20221114114128.png,facil,0083CPC,E 0083CPC,0083CPC,1,0,70.7
+easyocr,todas/IMG20221115153655.png,facil,0182GKT,E 0182GKT,0182GKT,1,0,48.3
+easyocr,todas/prueba-peugeot-308-hybrid-phev-2_mid6359518109bdc.png,facil,9729LTL,9729 LTL,9729LTL,1,0,32.2
+easyocr,todas/0182GLK.png,facil,0182GLK,0182GLK,0182GLK,1,0,110.6
+easyocr,todas/0304FWK.png,facil,0304FWK,0304 FRKJ,0304FRK,0,1,37.5
+easyocr,todas/1310MPK.png,facil,1310MPK,1310MPK,1310MPK,1,0,20.8
+easyocr,todas/1339MMS.png,facil,1339MMS,1399MMS,1399MMS,0,1,48.2
+easyocr,todas/5004MGB.png,dificil,5004MGB,5002 HGB,5002HGB,0,2,76.9
+easyocr,todas/5488LKV.png,facil,5488LKV,E 5488LKV,5488LKV,1,0,146.5
+easyocr,todas/6222JWN.png,dificil,6222JWN,6222JIN,6222JIN,0,1,60.0
+easyocr,todas/6688KSW.png,facil,6688KSW,6688KSW,6688KSW,1,0,83.3
+easyocr,todas/8555JKG.png,facil,8555JKG,8555OKG,8555OKG,0,1,88.9
+easyocr,todas/8970GZR.png,facil,8970GZR,E 8970GZR MRTTTCOMES UROR,8970GZR,1,0,107.5
+easyocr,todas/9075MDZ.png,facil,9075MDZ,9075 MDZ AUMAINSAISOOO DPE DACA,9075MDZ,1,0,148.0
+easyocr,todas/9247CZG.png,facil,9247CZG,E 9247 CZG,9247CZG,1,0,143.2
+easyocr,todas/0550HNN.png,facil,0550HNN,0550HNN,0550HNN,1,0,23.4
+easyocr,todas/1062FNT.png,facil,1062FNT,E 1062FNT,1062FNT,1,0,159.4
+easyocr,todas/1111LRB.png,facil,1111LRB,MLRB,MLRB,0,4,51.7
+easyocr,todas/2929KXJ.png,facil,2929KXJ,2929KXJ,2929KXJ,1,0,111.8
+easyocr,todas/3044JMB.png,facil,3044JMB,6 B044JMB,6B044JMB,0,2,110.5
+easyocr,todas/3076CCV.png,facil,3076CCV,80765 CCV,0765CCV,0,2,29.6
+easyocr,todas/3497BYY.png,facil,3497BYY,3497BYY,3497BYY,1,0,30.1
+easyocr,todas/3929GVS.png,facil,3929GVS,3929GVS OCAVOT0A1,3929GVS,1,0,43.3
+easyocr,todas/4283DJR.png,facil,4283DJR,DJR 4283 E 5932005000 93700960 ERCILONA VOLVO VI AUGU52 163 AUTO SAENZSA,DJR4283E,0,6,253.5
+easyocr,todas/4373KYG.png,facil,4373KYG,4373KYG,4373KYG,1,0,38.0
+easyocr,todas/5240BFM.png,facil,5240BFM,5240BFM,5240BFM,1,0,34.1
+easyocr,todas/5816FWG.png,dificil,5816FWG,581655,581655,0,3,65.0
+easyocr,todas/6000GVT.png,facil,6000GVT,E 6000GVT,6000GVT,1,0,185.8
+easyocr,todas/6072HBJ.png,facil,6072HBJ,6072HBJ,6072HBJ,1,0,28.5
+easyocr,todas/6230FXF.png,facil,6230FXF,6230 FXAI,6230FXAI,0,2,37.2
+easyocr,todas/6556KKH.png,facil,6556KKH,6556KKH,6556KKH,1,0,68.6
+easyocr,todas/7007KFD.png,facil,7007KFD,7007 KFD,7007KFD,1,0,36.6
+easyocr,todas/7067KSH.png,facil,7067KSH,E 7067 KSH,7067KSH,1,0,153.7
+easyocr,todas/7469JYS.png,facil,7469JYS,7469JYS,7469JYS,1,0,50.5
+easyocr,todas/8120GLL.png,facil,8120GLL,8120GLL,8120GLL,1,0,59.3
+easyocr,todas/9869KST.png,facil,9869KST,9869KST,9869KST,1,0,21.6
+easyocr,todas/9892JFR.png,facil,9892JFR,E 9892JFR,9892JFR,1,0,97.8
+easyocr,todas/9961HDK.png,facil,9961HDK,6 9961 HDK,9961HDK,1,0,151.0
+tesseract,todas/0041LZN.png,dificil,0041LZN,,,0,7,155.4
+tesseract,todas/0129KMK.png,facil,0129KMK,,,0,7,161.4
+tesseract,todas/0192DSP.png,dificil,0192DSP,,,0,7,153.8
+tesseract,todas/0195JHM.png,facil,0195JHM,B0195 JHNJ,0195JHN,0,1,170.0
+tesseract,todas/0225JWL.png,dificil,0225JWL,B225 J,B225J,0,3,163.9
+tesseract,todas/0226MPP.png,facil,0226MPP,,,0,7,142.6
+tesseract,todas/0278KXW.png,facil,0278KXW,,,0,7,139.9
+tesseract,todas/0425KDK.png,dificil,0425KDK,,,0,7,152.9
+tesseract,todas/0492MTT.png,facil,0492MTT,H0492MTT,0492MTT,1,0,158.0
+tesseract,todas/0560JDX.png,facil,0560JDX,,,0,7,172.5
+tesseract,todas/0649DHS.png,facil,0649DHS,BO649DSH,BO649DSH,0,4,172.1
+tesseract,todas/0802HFP.png,facil,0802HFP,0802HFPY,0802HFP,1,0,283.8
+tesseract,todas/0804CZV.png,facil,0804CZV,G080CZV,G080CZV,0,2,166.5
+tesseract,todas/0874LNH.png,dificil,0874LNH,,,0,7,152.5
+tesseract,todas/0907JRF.png,facil,0907JRF,,,0,7,146.3
+tesseract,todas/1072FRD.png,facil,1072FRD,FO,FO,0,6,149.0
+tesseract,todas/1159FPG.png,facil,1159FPG,B1159FPG,1159FPG,1,0,149.4
+tesseract,todas/1319FSX.png,facil,1319FSX,,,0,7,144.2
+tesseract,todas/1426JVT.png,facil,1426JVT,,,0,7,138.6
+tesseract,todas/1498JBZ.png,facil,1498JBZ,L983B7,L983B7,0,4,143.0
+tesseract,todas/1556GMZ.png,facil,1556GMZ,,,0,7,152.2
+tesseract,todas/1565HTS.png,facil,1565HTS,,,0,7,157.4
+tesseract,todas/15989862207427.png,facil,0478LFR,0478LFR,0478LFR,1,0,155.5
+tesseract,todas/1599DLB.png,facil,1599DLB,A1599DLB,1599DLB,1,0,194.8
+tesseract,todas/1612MHX.png,facil,1612MHX,1612MHX,1612MHX,1,0,182.9
+tesseract,todas/1637067480508.png,facil,3685HDP,T3085 HOE,T3085HO,0,4,171.6
+tesseract,todas/16488802684311.png,facil,8878LWB,9878L,9878L,0,3,164.1
+tesseract,todas/1755JKV.png,facil,1755JKV,,,0,7,150.2
+tesseract,todas/1819LPN.png,dificil,1819LPN,EG,EG,0,7,154.3
+tesseract,todas/1855MHN.png,facil,1855MHN,1855,1855,0,3,169.3
+tesseract,todas/1949LLT.png,facil,1949LLT,,,0,7,154.6
+tesseract,todas/2153GYX.png,facil,2153GYX,,,0,7,156.3
+tesseract,todas/2202LNW.png,dificil,2202LNW,,,0,7,160.9
+tesseract,todas/2344KJP.png,facil,2344KJP,A2344KIP,A2344KI,0,3,148.7
+tesseract,todas/2522LNH_0.png,dificil,2522LNH,EP,EP,0,7,144.1
+tesseract,todas/2522LNH_1.png,dificil,2522LNH,,,0,7,140.9
+tesseract,todas/2711LKN.png,facil,2711LKN,A2711LKN,2711LKN,1,0,147.3
+tesseract,todas/2841LJX.png,dificil,2841LJX,,,0,7,142.5
+tesseract,todas/2885BKJ.png,dificil,2885BKJ,,,0,7,142.7
+tesseract,todas/2942HFB.png,facil,2942HFB,B29L2HFBI,B29L2HFBI,0,3,162.8
+tesseract,todas/2953JHW.png,dificil,2953JHW,82953 STL,2953STL,0,3,151.5
+tesseract,todas/2956MJG.png,facil,2956MJG,82956MJG,2956MJG,1,0,148.3
+tesseract,todas/3046KWK.png,facil,3046KWK,W0K,W0K,0,5,174.0
+tesseract,todas/3161LNC.png,facil,3161LNC,,,0,7,143.9
+tesseract,todas/3340JMF.png,facil,3340JMF,83320JMF,3320JMF,0,1,158.0
+tesseract,todas/3451LGB.png,facil,3451LGB,,,0,7,150.6
+tesseract,todas/3582LBT.png,dificil,3582LBT,,,0,7,147.5
+tesseract,todas/3587DCX.png,facil,3587DCX,43587DCY,3587DCY,0,1,151.0
+tesseract,todas/3587DCX_foto2.png,facil,3587DCX,63587DCX,3587DCX,1,0,153.1
+tesseract,todas/3660CRT.png,facil,3660CRT,,,0,7,161.5
+tesseract,todas/3691MTY.png,facil,3691MTY,,,0,7,142.5
+tesseract,todas/3838KWB.png,facil,3838KWB,83838KWB,3838KWB,1,0,146.9
+tesseract,todas/3964LXV.png,dificil,3964LXV,,,0,7,144.9
+tesseract,todas/3964LXV_foto2.png,facil,3964LXV,,,0,7,138.3
+tesseract,todas/3.png,facil,4810FYN,,,0,7,146.3
+tesseract,todas/4000GFL.png,dificil,4000GFL,A,A,0,7,163.9
+tesseract,todas/4078BVX_0.png,dificil,4078BVX,7 D,7D,0,6,156.9
+tesseract,todas/4078BVX_1.png,dificil,4078BVX,,,0,7,158.4
+tesseract,todas/4125DVF.png,facil,4125DVF,,,0,7,149.4
+tesseract,todas/4181GWT.png,facil,4181GWT,,,0,7,288.0
+tesseract,todas/4182KMG.png,dificil,4182KMG,,,0,7,169.2
+tesseract,todas/4481DKX.png,facil,4481DKX,TASTOR,TASTOR,0,7,186.8
+tesseract,todas/4674FHC.png,facil,4674FHC,,,0,7,210.9
+tesseract,todas/4674FHC_foto2.png,facil,4674FHC,,,0,7,172.2
+tesseract,todas/4757GSY.png,facil,4757GSY,,,0,7,188.2
+tesseract,todas/4841LFS.png,facil,4841LFS,84841LFS,4841LFS,1,0,185.6
+tesseract,todas/4950KZK.png,facil,4950KZK,B4950KZK,4950KZK,1,0,159.4
+tesseract,todas/4.png,facil,1049LDV,81049LDV,1049LDV,1,0,156.8
+tesseract,todas/5052HLJ.png,facil,5052HLJ,,,0,7,144.5
+tesseract,todas/5172LTZ.png,facil,5172LTZ,,,0,7,145.7
+tesseract,todas/5215HSH.png,facil,5215HSH,F5215HSH,5215HSH,1,0,139.9
+tesseract,todas/5215HXL.png,facil,5215HXL,,,0,7,140.8
+tesseract,todas/5239LSB.png,facil,5239LSB,45239 LSB,5239LSB,1,0,152.0
+tesseract,todas/5240KSW.png,facil,5240KSW,,,0,7,138.5
+tesseract,todas/5275HGY.png,facil,5275HGY,,,0,7,142.0
+tesseract,todas/5275HGY_foto2.png,facil,5275HGY,85275HGY,5275HGY,1,0,157.8
+tesseract,todas/5422MSY.png,dificil,5422MSY,,,0,7,142.0
+tesseract,todas/5493DHZ.png,dificil,5493DHZ,,,0,7,150.3
+tesseract,todas/5789JHB.png,facil,5789JHB,789JHB,789JHB,0,1,175.5
+tesseract,todas/5796DKP.png,facil,5796DKP,,,0,7,161.0
+tesseract,todas/5796DKP_foto2.png,facil,5796DKP,,,0,7,166.5
+tesseract,todas/5921LMH.png,dificil,5921LMH,,,0,7,160.2
+tesseract,todas/5.png,facil,5025JJM,B5025J,B5025J,0,3,160.3
+tesseract,todas/6005KFV.png,facil,6005KFV,BRSO0S,BRSO0S,0,7,165.8
+tesseract,todas/6040DLX.png,facil,6040DLX,,,0,7,154.9
+tesseract,todas/6298KSN_0.png,dificil,6298KSN,6298KSN,6298KSN,1,0,152.2
+tesseract,todas/6298KSN_1.png,dificil,6298KSN,,,0,7,145.6
+tesseract,todas/6299JJL.png,facil,6299JJL,A6299JJLI,6299JJL,1,0,162.4
+tesseract,todas/6401JBX.png,facil,6401JBX,,,0,7,149.1
+tesseract,todas/6445HNP.png,dificil,6445HNP,,,0,7,139.8
+tesseract,todas/6554BNX.png,facil,6554BNX,UESLBNY,UESLBNY,0,5,148.3
+tesseract,todas/6704KNN.png,facil,6704KNN,,,0,7,139.4
+tesseract,todas/6775BNF.png,facil,6775BNF,AG77SBNES,AG77SBNES,0,5,150.9
+tesseract,todas/6929LKK.png,facil,6929LKK,H0LKKY,H0LKKY,0,5,142.7
+tesseract,todas/7153JWD.png,facil,7153JWD,487153JWD,7153JWD,1,0,146.9
+tesseract,todas/7254LJJ.png,dificil,7254LJJ,,,0,7,137.3
+tesseract,todas/7270GVF.png,facil,7270GVF,,,0,7,139.9
+tesseract,todas/7318GSB.png,facil,7318GSB,WA7318CSE,WA7318CS,0,4,148.3
+tesseract,todas/7332JKC.png,facil,7332JKC,,,0,7,149.9
+tesseract,todas/7746KBG.png,facil,7746KBG,F776,F776,0,5,172.4
+tesseract,todas/7963KNH.png,dificil,7963KNH,7963KNH 9 3KNH KNH,7963KNH,1,0,156.2
+tesseract,todas/7.png,facil,1104CZK,,,0,7,141.5
+tesseract,todas/8014LXF.png,facil,8014LXF,,,0,7,140.0
+tesseract,todas/8168GJG.png,facil,8168GJG,88168GJG,8168GJG,1,0,145.7
+tesseract,todas/8597FSC.png,facil,8597FSC,,,0,7,150.2
+tesseract,todas/8691KPN.png,facil,8691KPN,A8691KPN,8691KPN,1,0,147.6
+tesseract,todas/8712HJG.png,facil,8712HJG,A8712HJG,8712HJG,1,0,144.1
+tesseract,todas/8727JTC.png,facil,8727JTC,H8727JTC,8727JTC,1,0,149.5
+tesseract,todas/8727JTC_foto2.png,facil,8727JTC,B727J7G,B727J7G,0,3,144.1
+tesseract,todas/8778LVY.png,facil,8778LVY,AS77781,AS77781,0,6,163.5
+tesseract,todas/8903KPT_0.png,dificil,8903KPT,H903KPI,H903KPI,0,2,152.8
+tesseract,todas/8903KPT_1.png,dificil,8903KPT,,,0,7,144.9
+tesseract,todas/8953JXP.png,facil,8953JXP,,,0,7,138.6
+tesseract,todas/8.png,facil,4577JNF,EI,EI,0,7,141.6
+tesseract,todas/9063MPD.png,dificil,9063MPD,,,0,7,135.3
+tesseract,todas/9395MSB.png,facil,9395MSB,,,0,7,140.4
+tesseract,todas/9498LCN.png,dificil,9498LCN,19498LCN,9498LCN,1,0,147.3
+tesseract,todas/9532GVC.png,dificil,9532GVC,532,532,0,4,151.2
+tesseract,todas/9542KDC.png,facil,9542KDC,89542KDC,9542KDC,1,0,147.8
+tesseract,todas/9603LFP.png,facil,9603LFP,,,0,7,156.6
+tesseract,todas/9603MPD.png,facil,9603MPD,,,0,7,145.7
+tesseract,todas/9786KTP.png,facil,9786KTP,,,0,7,146.6
+tesseract,todas/9883GTM.png,facil,9883GTM,,,0,7,145.3
+tesseract,todas/CNP2309AW.png,facil,CNP2309AW,BCNP2309AW,CNP2309AW,1,0,140.9
+tesseract,todas/Coches-mas-vendidos-Espana-2018.png,facil,0310RCU,,,0,7,135.9
+tesseract,todas/como-saber-que-ano-es-tu-coche-matricula.png,facil,0019GVM,,,0,7,139.2
+tesseract,todas/GC4370BV_0.png,dificil,GC4370BV,IGC4370BV,IGC4370BV,0,1,142.9
+tesseract,todas/GC4370BV_1.png,dificil,0635LYZ,A0635LY7,A0635LY,0,2,145.6
+tesseract,todas/GR5101AT.png,dificil,GR5101AT,,,0,8,137.8
+tesseract,todas/Imagen-de-WhatsApp-2022-11-14-a-las-09-52-21.png,facil,4041LHK,,,0,7,140.3
+tesseract,todas/Imagen-de-WhatsApp-2022-11-14-a-las-09-52-23.png,facil,GC4905BV,SC905BV,SC905BV,0,2,142.6
+tesseract,todas/imagen8709_NM8710_MG7782316.png,facil,2021AXP,R202TAT,R202TAT,0,4,141.3
+tesseract,todas/IMG-20221114-WA0072.png,facil,0239GLK,39GLK,39GLK,0,2,140.9
+tesseract,todas/IMG-20221114-WA0073.png,facil,7470GVH,,,0,7,135.6
+tesseract,todas/IMG-20221114-WA0074.png,facil,6631KWY,,,0,7,133.7
+tesseract,todas/IMG-20221114-WA0075.png,facil,4511HTH,451 1HTH,4511HTH,1,0,145.3
+tesseract,todas/IMG-20221114-WA0076.png,facil,4597HXL,,,0,7,140.5
+tesseract,todas/IMG-20221114-WA0077.png,facil,8433LTC,88433LTC,8433LTC,1,0,144.4
+tesseract,todas/IMG-20221114-WA0078.png,facil,0063HSJ,E3,E3,0,6,146.1
+tesseract,todas/IMG-20221114-WA0079.png,facil,3343DYL,,,0,7,141.5
+tesseract,todas/IMG-20221114-WA0080.png,facil,5930FMT,15930FMTS,5930FMT,1,0,155.8
+tesseract,todas/IMG-20221114-WA0081.png,facil,2496BTM,B2498PTY,2498PTY,0,3,154.8
+tesseract,todas/IMG-20221114-WA0082.png,dificil,5670JKF,,,0,7,153.2
+tesseract,todas/IMG-20221114-WA0083.png,facil,4138KFK,W84138KFK,4138KFK,1,0,161.6
+tesseract,todas/IMG-20221114-WA0084.png,facil,5791FTD,,,0,7,156.4
+tesseract,todas/IMG-20221114-WA0085.png,facil,0635LYZ,5K,5K,0,6,174.9
+tesseract,todas/IMG-20221114-WA0086.png,facil,9556KTR,,,0,7,145.0
+tesseract,todas/IMG-20221114-WA0087.png,facil,7484HWF,,,0,7,134.7
+tesseract,todas/IMG-20221114-WA0088.png,facil,6656JPW,A6656JPW,6656JPW,1,0,137.1
+tesseract,todas/IMG-20221114-WA0089.png,facil,0523HNF,,,0,7,130.6
+tesseract,todas/IMG-20221114-WA0090.png,facil,4103HMX,84103HMX,4103HMX,1,0,142.2
+tesseract,todas/IMG-20221114-WA0091.png,facil,GC2670CM,AGC2670CM,AGC2670CM,0,1,143.0
+tesseract,todas/IMG-20221114-WA0092.png,facil,8686LLJ,38686LLJ,8686LLJ,1,0,143.3
+tesseract,todas/IMG-20221114-WA0093.png,dificil,9311BMF,A3311 BME,A3311BM,0,3,152.4
+tesseract,todas/IMG-20221114-WA0094.png,facil,3587KSG,587KS,587KS,0,2,134.4
+tesseract,todas/IMG-20221114-WA0095.png,facil,0849GSD,0849GSD,0849GSD,1,0,131.8
+tesseract,todas/IMG-20221114-WA0096.png,facil,1805GTP,B1805GTP,1805GTP,1,0,134.7
+tesseract,todas/IMG-20221114-WA0097.png,facil,9160JBM,49160JBM,9160JBM,1,0,134.7
+tesseract,todas/IMG-20221114-WA0098.png,facil,9780HCF,89780HCF,9780HCF,1,0,135.3
+tesseract,todas/IMG-20221114-WA0099.png,facil,1268CDN,1268CDN,1268CDN,1,0,139.7
+tesseract,todas/IMG20221114082327_0.png,dificil,7430HNM,,,0,7,132.1
+tesseract,todas/IMG20221114082327_1.png,dificil,7110FPJ,B7110 FPJ,7110FPJ,1,0,161.6
+tesseract,todas/IMG20221114082331.png,facil,7430HNM,W7030ANW,W7030AN,0,4,152.4
+tesseract,todas/IMG20221114082335.png,facil,7110FPJ,7710FPIY,7710FPIY,0,3,155.8
+tesseract,todas/IMG20221114082338_0.png,dificil,7927JHX,,,0,7,155.4
+tesseract,todas/IMG20221114082338_1.png,dificil,6401DWL,A6401DWL,6401DWL,1,0,145.6
+tesseract,todas/IMG20221114113754.png,facil,8916BDG,,,0,7,149.0
+tesseract,todas/IMG20221114113800.png,facil,4324KRD,BA AZUDTURISPOL K RD,BAAZUDTURISPOLKRD,0,14,156.5
+tesseract,todas/IMG20221114113807.png,facil,2465DYD,,,0,7,142.6
+tesseract,todas/IMG20221114113823.png,facil,3821GYG,3821GYG,3821GYG,1,0,144.8
+tesseract,todas/IMG20221114113830.png,facil,0674BZH,,,0,7,143.1
+tesseract,todas/IMG20221114113836.png,facil,3027LMJ,3027LMJ,3027LMJ,1,0,140.0
+tesseract,todas/IMG20221114113843.png,facil,4928JBF,,,0,7,135.6
+tesseract,todas/IMG20221114113849.png,facil,9074FYM,E0072E,E0072E,0,6,141.0
+tesseract,todas/IMG20221114113902.png,facil,6352LNB,66352LNB,6352LNB,1,0,141.2
+tesseract,todas/IMG20221114113915.png,facil,GC8300CB,EGC8300CB,EGC8300CB,0,1,140.0
+tesseract,todas/IMG20221114113931.png,facil,8590LYT,,,0,7,139.6
+tesseract,todas/IMG20221114113935.png,facil,1336FLG,,,0,7,142.1
+tesseract,todas/IMG20221114113948.png,facil,4452HYG,,,0,7,145.2
+tesseract,todas/IMG20221114114128.png,facil,0083CPC,B0083CPC,0083CPC,1,0,141.2
+tesseract,todas/IMG20221115153655.png,facil,0182GKT,0182SKT,0182SKT,0,1,140.9
+tesseract,todas/prueba-peugeot-308-hybrid-phev-2_mid6359518109bdc.png,facil,9729LTL,,,0,7,137.0
+tesseract,todas/0182GLK.png,facil,0182GLK,,,0,7,137.2
+tesseract,todas/0304FWK.png,facil,0304FWK,AN 0304FWK,0304FWK,1,0,148.0
+tesseract,todas/1310MPK.png,facil,1310MPK,,,0,7,136.4
+tesseract,todas/1339MMS.png,facil,1339MMS,,,0,7,140.3
+tesseract,todas/5004MGB.png,dificil,5004MGB,,,0,7,137.1
+tesseract,todas/5488LKV.png,facil,5488LKV,5488LKV,5488LKV,1,0,158.6
+tesseract,todas/6222JWN.png,dificil,6222JWN,,,0,7,187.2
+tesseract,todas/6688KSW.png,facil,6688KSW,6688KSW,6688KSW,1,0,158.2
+tesseract,todas/8555JKG.png,facil,8555JKG,,,0,7,144.4
+tesseract,todas/8970GZR.png,facil,8970GZR,,,0,7,160.5
+tesseract,todas/9075MDZ.png,facil,9075MDZ,9075MOZ,9075MOZ,0,1,154.6
+tesseract,todas/9247CZG.png,facil,9247CZG,49247CZG,9247CZG,1,0,148.8
+tesseract,todas/0550HNN.png,facil,0550HNN,05504NN J,5504NNJ,0,3,148.2
+tesseract,todas/1062FNT.png,facil,1062FNT,,,0,7,151.1
+tesseract,todas/1111LRB.png,facil,1111LRB,BA111LRB,BA111LRB,0,2,209.4
+tesseract,todas/2929KXJ.png,facil,2929KXJ,H2929KXJ,2929KXJ,1,0,188.7
+tesseract,todas/3044JMB.png,facil,3044JMB,23044JWB,3044JWB,0,1,147.0
+tesseract,todas/3076CCV.png,facil,3076CCV,,,0,7,140.9
+tesseract,todas/3497BYY.png,facil,3497BYY,93497BYY,3497BYY,1,0,154.1
+tesseract,todas/3929GVS.png,facil,3929GVS,3929GS,3929GS,0,1,146.6
+tesseract,todas/4283DJR.png,facil,4283DJR,,,0,7,139.4
+tesseract,todas/4373KYG.png,facil,4373KYG,,,0,7,144.2
+tesseract,todas/5240BFM.png,facil,5240BFM,AS240BEMY,AS240BEMY,0,4,140.8
+tesseract,todas/5816FWG.png,dificil,5816FWG,,,0,7,139.1
+tesseract,todas/6000GVT.png,facil,6000GVT,OV,OV,0,6,143.0
+tesseract,todas/6072HBJ.png,facil,6072HBJ,,,0,7,139.8
+tesseract,todas/6230FXF.png,facil,6230FXF,,,0,7,144.5
+tesseract,todas/6556KKH.png,facil,6556KKH,6556KKH,6556KKH,1,0,144.2
+tesseract,todas/7007KFD.png,facil,7007KFD,17007KF,17007KF,0,2,144.3
+tesseract,todas/7067KSH.png,facil,7067KSH,127067KSHI,7067KSH,1,0,151.5
+tesseract,todas/7469JYS.png,facil,7469JYS,B7469JYS,7469JYS,1,0,137.8
+tesseract,todas/8120GLL.png,facil,8120GLL,K3120GLL,3120GLL,0,1,138.5
+tesseract,todas/9869KST.png,facil,9869KST,B9869KST,9869KST,1,0,142.7
+tesseract,todas/9892JFR.png,facil,9892JFR,89892JFRI,9892JFR,1,0,140.3
+tesseract,todas/9961HDK.png,facil,9961HDK,,,0,7,137.3
+smolvlm,todas/0041LZN.png,dificil,0041LZN,0041LLZN.,0041LLZ,0,2,1975.0
+smolvlm,todas/0129KMK.png,facil,0129KMK,0129 KMK.,0129KMK,1,0,1026.7
+smolvlm,todas/0192DSP.png,dificil,0192DSP,0192 DSP.,0192DSP,1,0,1902.8
+smolvlm,todas/0195JHM.png,facil,0195JHM,0195 JHM.,0195JHM,1,0,1399.3
+smolvlm,todas/0225JWL.png,dificil,0225JWL,0225 JWL.,0225JWL,1,0,1574.2
+smolvlm,todas/0226MPP.png,facil,0226MPP,0226 MPP.,0226MPP,1,0,1367.6
+smolvlm,todas/0278KXW.png,facil,0278KXW,0278 KXW.,0278KXW,1,0,1509.8
+smolvlm,todas/0425KDK.png,dificil,0425KDK,0425 KDK.,0425KDK,1,0,1421.1
+smolvlm,todas/0492MTT.png,facil,0492MTT,0492MTT.,0492MTT,1,0,1468.7
+smolvlm,todas/0560JDX.png,facil,0560JDX,0560 JDX.,0560JDX,1,0,1417.2
+smolvlm,todas/0649DHS.png,facil,0649DHS,0649 DSH.,0649DSH,0,2,1117.6
+smolvlm,todas/0802HFP.png,facil,0802HFP,0802 HFP.,0802HFP,1,0,1401.9
+smolvlm,todas/0804CZV.png,facil,0804CZV,0804 CZV.,0804CZV,1,0,1508.6
+smolvlm,todas/0874LNH.png,dificil,0874LNH,0874 LNPH.,0874LNP,0,1,1143.9
+smolvlm,todas/0907JRF.png,facil,0907JRF,0907 JRF.,0907JRF,1,0,1424.8
+smolvlm,todas/1072FRD.png,facil,1072FRD,1072 FRD.,1072FRD,1,0,1496.4
+smolvlm,todas/1159FPG.png,facil,1159FPG,.1159FPG.,1159FPG,1,0,1406.8
+smolvlm,todas/1319FSX.png,facil,1319FSX,1319 FSX.,1319FSX,1,0,1478.7
+smolvlm,todas/1426JVT.png,facil,1426JVT,1426 JVT.,1426JVT,1,0,1387.5
+smolvlm,todas/1498JBZ.png,facil,1498JBZ,1498 JBZ.,1498JBZ,1,0,1552.0
+smolvlm,todas/1556GMZ.png,facil,1556GMZ,1556 GMZ.,1556GMZ,1,0,1406.2
+smolvlm,todas/1565HTS.png,facil,1565HTS,1565 HTS.,1565HTS,1,0,1099.6
+smolvlm,todas/15989862207427.png,facil,0478LFR,0478 LFR.,0478LFR,1,0,1417.3
+smolvlm,todas/1599DLB.png,facil,1599DLB,1599DLB.,1599DLB,1,0,1471.9
+smolvlm,todas/1612MHX.png,facil,1612MHX,1612 MHX.,1612MHX,1,0,1055.7
+smolvlm,todas/1637067480508.png,facil,3685HDP,3685 HDP.,3685HDP,1,0,1419.1
+smolvlm,todas/16488802684311.png,facil,8878LWB,8878 LWB.,8878LWB,1,0,1560.7
+smolvlm,todas/1755JKV.png,facil,1755JKV,1755 JKV.,1755JKV,1,0,1523.8
+smolvlm,todas/1819LPN.png,dificil,1819LPN,1819 LPN.,1819LPN,1,0,1832.3
+smolvlm,todas/1855MHN.png,facil,1855MHN,1855 MHN.,1855MHN,1,0,1481.9
+smolvlm,todas/1949LLT.png,facil,1949LLT,1949LLT.,1949LLT,1,0,1392.7
+smolvlm,todas/2153GYX.png,facil,2153GYX,2153GYX,2153GYX,1,0,1397.2
+smolvlm,todas/2202LNW.png,dificil,2202LNW,2:202 LNW.,2202LNW,1,0,1839.9
+smolvlm,todas/2344KJP.png,facil,2344KJP,2344 KJP.,2344KJP,1,0,1589.3
+smolvlm,todas/2522LNH_0.png,dificil,2522LNH,2522 LNH.,2522LNH,1,0,1428.4
+smolvlm,todas/2522LNH_1.png,dificil,2522LNH,111111111111111,111111111111111,0,15,1998.4
+smolvlm,todas/2711LKN.png,facil,2711LKN,2711 lkn.,2711LKN,1,0,1046.5
+smolvlm,todas/2841LJX.png,dificil,2841LJX,2841.,2841,0,3,2122.2
+smolvlm,todas/2885BKJ.png,dificil,2885BKJ,2885 BKJ.,2885BKJ,1,0,1545.0
+smolvlm,todas/2942HFB.png,facil,2942HFB,2942 HFB.,2942HFB,1,0,1494.4
+smolvlm,todas/2953JHW.png,dificil,2953JHW,2953 JHH.,2953JHH,0,1,1437.1
+smolvlm,todas/2956MJG.png,facil,2956MJG,2956 MJG.,2956MJG,1,0,1509.0
+smolvlm,todas/3046KWK.png,facil,3046KWK,3046 kwik.,3046KWIK,0,1,1082.0
+smolvlm,todas/3161LNC.png,facil,3161LNC,E 3161 LNC.,3161LNC,1,0,1176.7
+smolvlm,todas/3340JMF.png,facil,3340JMF,JMF,JMF,0,4,732.9
+smolvlm,todas/3451LGB.png,facil,3451LGB,3451 LGB.,3451LGB,1,0,1429.5
+smolvlm,todas/3582LBT.png,dificil,3582LBT,3582 LBT.,3582LBT,1,0,1953.8
+smolvlm,todas/3587DCX.png,facil,3587DCX,3587 DCX.,3587DCX,1,0,1515.8
+smolvlm,todas/3587DCX_foto2.png,facil,3587DCX,3587 DCX.,3587DCX,1,0,1127.5
+smolvlm,todas/3660CRT.png,facil,3660CRT,CRT,CRT,0,4,937.9
+smolvlm,todas/3691MTY.png,facil,3691MTY,369 MTY.,369MTY,0,1,1406.4
+smolvlm,todas/3838KWB.png,facil,3838KWB,3838 KWB.,3838KWB,1,0,1481.6
+smolvlm,todas/3964LXV.png,dificil,3964LXV,3964 LXV.,3964LXV,1,0,2069.8
+smolvlm,todas/3964LXV_foto2.png,facil,3964LXV,3964 LXV.,3964LXV,1,0,1670.5
+smolvlm,todas/3.png,facil,4810FYN,4810FYN.,4810FYN,1,0,1474.2
+smolvlm,todas/4000GFL.png,dificil,4000GFL,K000 GFL.,K000GFL,0,1,1330.6
+smolvlm,todas/4078BVX_0.png,dificil,4078BVX,4078BVX.,4078BVX,1,0,1733.0
+smolvlm,todas/4078BVX_1.png,dificil,4078BVX,6151 KXG.,6151KXG,0,7,1805.4
+smolvlm,todas/4125DVF.png,facil,4125DVF,4125 DVF.,4125DVF,1,0,1375.1
+smolvlm,todas/4181GWT.png,facil,4181GWT,4181 GWT.,4181GWT,1,0,1043.9
+smolvlm,todas/4182KMG.png,dificil,4182KMG,4182 KMG.,4182KMG,1,0,1422.3
+smolvlm,todas/4481DKX.png,facil,4481DKX,4481 DKX.,4481DKX,1,0,1535.5
+smolvlm,todas/4674FHC.png,facil,4674FHC,4674 FHc.,4674FHC,1,0,1355.5
+smolvlm,todas/4674FHC_foto2.png,facil,4674FHC,4674 FHC.,4674FHC,1,0,1335.3
+smolvlm,todas/4757GSY.png,facil,4757GSY,4757 GSY.,4757GSY,1,0,1394.2
+smolvlm,todas/4841LFS.png,facil,4841LFS,4841 LFS.,4841LFS,1,0,1359.7
+smolvlm,todas/4950KZK.png,facil,4950KZK,4.950.,4950,0,3,1302.0
+smolvlm,todas/4.png,facil,1049LDV,1049 LDV.,1049LDV,1,0,1044.5
+smolvlm,todas/5052HLJ.png,facil,5052HLJ,5052 HLJ.,5052HLJ,1,0,1677.8
+smolvlm,todas/5172LTZ.png,facil,5172LTZ,5172 LTZ.,5172LTZ,1,0,1324.8
+smolvlm,todas/5215HSH.png,facil,5215HSH,5215 HSH.,5215HSH,1,0,1364.1
+smolvlm,todas/5215HXL.png,facil,5215HXL,5215 HXL.,5215HXL,1,0,1460.7
+smolvlm,todas/5239LSB.png,facil,5239LSB,5239LSB.,5239LSB,1,0,1722.2
+smolvlm,todas/5240KSW.png,facil,5240KSW,5240 KSW.,5240KSW,1,0,1734.9
+smolvlm,todas/5275HGY.png,facil,5275HGY,5275 HGY.,5275HGY,1,0,1351.5
+smolvlm,todas/5275HGY_foto2.png,facil,5275HGY,5275 HGY.,5275HGY,1,0,1153.9
+smolvlm,todas/5422MSY.png,dificil,5422MSY,BENNETT.,BENNETT,0,7,1255.5
+smolvlm,todas/5493DHZ.png,dificil,5493DHZ,5493 DHZ.,5493DHZ,1,0,2416.3
+smolvlm,todas/5789JHB.png,facil,5789JHB,5789 JHB.,5789JHB,1,0,1512.2
+smolvlm,todas/5796DKP.png,facil,5796DKP,5796 DKP.,5796DKP,1,0,1501.2
+smolvlm,todas/5796DKP_foto2.png,facil,5796DKP,5796 DKP.,5796DKP,1,0,1199.8
+smolvlm,todas/5921LMH.png,dificil,5921LMH,5921LMH.,5921LMH,1,0,1821.3
+smolvlm,todas/5.png,facil,5025JJM,5025 JJM.,5025JJM,1,0,1491.9
+smolvlm,todas/6005KFV.png,facil,6005KFV,6005 KFV.,6005KFV,1,0,1206.9
+smolvlm,todas/6040DLX.png,facil,6040DLX,6040 DLX.,6040DLX,1,0,1444.9
+smolvlm,todas/6298KSN_0.png,dificil,6298KSN,6298 KSN.,6298KSN,1,0,1464.8
+smolvlm,todas/6298KSN_1.png,dificil,6298KSN,1-120 KSW.,1120KSW,0,5,1492.9
+smolvlm,todas/6299JJL.png,facil,6299JJL,6299 jjl.,6299JJL,1,0,1522.0
+smolvlm,todas/6401JBX.png,facil,6401JBX,6401 JBX.,6401JBX,1,0,1542.6
+smolvlm,todas/6445HNP.png,dificil,6445HNP,6445 HNP.,6445HNP,1,0,1481.8
+smolvlm,todas/6554BNX.png,facil,6554BNX,6554BNX.,6554BNX,1,0,1453.6
+smolvlm,todas/6704KNN.png,facil,6704KNN,6704 KNN.,6704KNN,1,0,1442.4
+smolvlm,todas/6775BNF.png,facil,6775BNF,6775BNF,6775BNF,1,0,977.6
+smolvlm,todas/6929LKK.png,facil,6929LKK,6929 LKK.,6929LKK,1,0,1440.6
+smolvlm,todas/7153JWD.png,facil,7153JWD,7153 JWD.,7153JWD,1,0,1071.0
+smolvlm,todas/7254LJJ.png,dificil,7254LJJ,7254 LLJJ.,7254LLJ,0,1,1548.6
+smolvlm,todas/7270GVF.png,facil,7270GVF,7270 GVF.,7270GVF,1,0,1527.5
+smolvlm,todas/7318GSB.png,facil,7318GSB,7318 GSB.,7318GSB,1,0,1498.0
+smolvlm,todas/7332JKC.png,facil,7332JKC,JKC.,JKC,0,4,1126.9
+smolvlm,todas/7746KBG.png,facil,7746KBG,7746 KBG.,7746KBG,1,0,1409.8
+smolvlm,todas/7963KNH.png,dificil,7963KNH,7963 KNH.,7963KNH,1,0,1433.7
+smolvlm,todas/7.png,facil,1104CZK,1104 czk.,1104CZK,1,0,1577.4
+smolvlm,todas/8014LXF.png,facil,8014LXF,6014 LXF.,6014LXF,0,1,1596.3
+smolvlm,todas/8168GJG.png,facil,8168GJG,8168 gjg.,8168GJG,1,0,1175.1
+smolvlm,todas/8597FSC.png,facil,8597FSC,8597 FSC.,8597FSC,1,0,1883.8
+smolvlm,todas/8691KPN.png,facil,8691KPN,8691 KPN.,8691KPN,1,0,1088.6
+smolvlm,todas/8712HJG.png,facil,8712HJG,8712 HJG.,8712HJG,1,0,1179.3
+smolvlm,todas/8727JTC.png,facil,8727JTC,18727 JTC.,8727JTC,1,0,1173.5
+smolvlm,todas/8727JTC_foto2.png,facil,8727JTC,8727 JTC.,8727JTC,1,0,1504.7
+smolvlm,todas/8778LVY.png,facil,8778LVY,LVY 8778.,LVY8778,0,6,1509.6
+smolvlm,todas/8903KPT_0.png,dificil,8903KPT,8903 KPT.,8903KPT,1,0,1479.6
+smolvlm,todas/8903KPT_1.png,dificil,8903KPT,665 AMN.,665AMN,0,7,1309.2
+smolvlm,todas/8953JXP.png,facil,8953JXP,8953 JXP.,8953JXP,1,0,1520.4
+smolvlm,todas/8.png,facil,4577JNF,4577 JNF.,4577JNF,1,0,1418.3
+smolvlm,todas/9063MPD.png,dificil,9063MPD,MPD.,MPD,0,4,724.1
+smolvlm,todas/9395MSB.png,facil,9395MSB,9395 MSB.,9395MSB,1,0,1493.8
+smolvlm,todas/9498LCN.png,dificil,9498LCN,9498 LCN.,9498LCN,1,0,1404.4
+smolvlm,todas/9532GVC.png,dificil,9532GVC,9532 GVC.,9532GVC,1,0,1495.4
+smolvlm,todas/9542KDC.png,facil,9542KDC,9542 KDC.,9542KDC,1,0,1356.8
+smolvlm,todas/9603LFP.png,facil,9603LFP,9603 LFP.,9603LFP,1,0,1440.2
+smolvlm,todas/9603MPD.png,facil,9603MPD,MPD.,MPD,0,4,1019.0
+smolvlm,todas/9786KTP.png,facil,9786KTP,9786 KTP.,9786KTP,1,0,1468.7
+smolvlm,todas/9883GTM.png,facil,9883GTM,9883 GTM,9883GTM,1,0,1037.8
+smolvlm,todas/CNP2309AW.png,facil,CNP2309AW,CNP 2309AW.,CNP2309AW,1,0,1485.9
+smolvlm,todas/Coches-mas-vendidos-Espana-2018.png,facil,0310RCU,0310 RCU.,0310RCU,1,0,1452.9
+smolvlm,todas/como-saber-que-ano-es-tu-coche-matricula.png,facil,0019GVM,0019 GVM.,0019GVM,1,0,1469.0
+smolvlm,todas/GC4370BV_0.png,dificil,GC4370BV,GC:4370BV.,GC4370BV,1,0,1460.3
+smolvlm,todas/GC4370BV_1.png,dificil,0635LYZ,0635LYZ.,0635LYZ,1,0,1398.0
+smolvlm,todas/GR5101AT.png,dificil,GR5101AT,GR5101 AT.,GR5101AT,1,0,1402.6
+smolvlm,todas/Imagen-de-WhatsApp-2022-11-14-a-las-09-52-21.png,facil,4041LHK,4041 LHK.,4041LHK,1,0,1389.3
+smolvlm,todas/Imagen-de-WhatsApp-2022-11-14-a-las-09-52-23.png,facil,GC4905BV,GC 4905 BV.,GC4905BV,1,0,1564.6
+smolvlm,todas/imagen8709_NM8710_MG7782316.png,facil,2021AXP,2021 AXP.,2021AXP,1,0,1458.3
+smolvlm,todas/IMG-20221114-WA0072.png,facil,0239GLK,0239 GLK.,0239GLK,1,0,1495.3
+smolvlm,todas/IMG-20221114-WA0073.png,facil,7470GVH,7470GVH.,7470GVH,1,0,1094.3
+smolvlm,todas/IMG-20221114-WA0074.png,facil,6631KWY,6631 KWY.,6631KWY,1,0,1594.0
+smolvlm,todas/IMG-20221114-WA0075.png,facil,4511HTH,451 HTH.,451HTH,0,1,1378.9
+smolvlm,todas/IMG-20221114-WA0076.png,facil,4597HXL,4597 HXL.,4597HXL,1,0,1588.7
+smolvlm,todas/IMG-20221114-WA0077.png,facil,8433LTC,8433 LTC.,8433LTC,1,0,1090.4
+smolvlm,todas/IMG-20221114-WA0078.png,facil,0063HSJ,0063 HSJ.,0063HSJ,1,0,1433.9
+smolvlm,todas/IMG-20221114-WA0079.png,facil,3343DYL,3343 DYL.,3343DYL,1,0,1510.2
+smolvlm,todas/IMG-20221114-WA0080.png,facil,5930FMT,5930 FMT.,5930FMT,1,0,1132.8
+smolvlm,todas/IMG-20221114-WA0081.png,facil,2496BTM,2496 BTM.,2496BTM,1,0,1576.3
+smolvlm,todas/IMG-20221114-WA0082.png,dificil,5670JKF,JKF.,JKF,0,4,1123.3
+smolvlm,todas/IMG-20221114-WA0083.png,facil,4138KFK,4138 KFK.,4138KFK,1,0,1178.7
+smolvlm,todas/IMG-20221114-WA0084.png,facil,5791FTD,5791 FTD.,5791FTD,1,0,1373.5
+smolvlm,todas/IMG-20221114-WA0085.png,facil,0635LYZ,0635 LYZ.,0635LYZ,1,0,1499.8
+smolvlm,todas/IMG-20221114-WA0086.png,facil,9556KTR,9556 KTR.,9556KTR,1,0,1385.7
+smolvlm,todas/IMG-20221114-WA0087.png,facil,7484HWF,7484 HWF.,7484HWF,1,0,1556.7
+smolvlm,todas/IMG-20221114-WA0088.png,facil,6656JPW,6656 jpw.,6656JPW,1,0,1094.3
+smolvlm,todas/IMG-20221114-WA0089.png,facil,0523HNF,0523 HNF.,0523HNF,1,0,1444.4
+smolvlm,todas/IMG-20221114-WA0090.png,facil,4103HMX,4103 HMX.,4103HMX,1,0,1125.5
+smolvlm,todas/IMG-20221114-WA0091.png,facil,GC2670CM,GC 2670 CM.,GC2670CM,1,0,1367.1
+smolvlm,todas/IMG-20221114-WA0092.png,facil,8686LLJ,8686 LLJ.,8686LLJ,1,0,1419.4
+smolvlm,todas/IMG-20221114-WA0093.png,dificil,9311BMF,9311BNF,9311BNF,0,1,1273.7
+smolvlm,todas/IMG-20221114-WA0094.png,facil,3587KSG,3587 KSG.,3587KSG,1,0,1470.3
+smolvlm,todas/IMG-20221114-WA0095.png,facil,0849GSD,0849 GSD.,0849GSD,1,0,1415.5
+smolvlm,todas/IMG-20221114-WA0096.png,facil,1805GTP,1805 GTP.,1805GTP,1,0,1482.7
+smolvlm,todas/IMG-20221114-WA0097.png,facil,9160JBM,9160 JBM.,9160JBM,1,0,1402.6
+smolvlm,todas/IMG-20221114-WA0098.png,facil,9780HCF,9780 HCF.,9780HCF,1,0,1451.8
+smolvlm,todas/IMG-20221114-WA0099.png,facil,1268CDN,1268 cdn.,1268CDN,1,0,1113.8
+smolvlm,todas/IMG20221114082327_0.png,dificil,7430HNM,7430 HNM.,7430HNM,1,0,1448.0
+smolvlm,todas/IMG20221114082327_1.png,dificil,7110FPJ,7110 FPJ.,7110FPJ,1,0,1478.2
+smolvlm,todas/IMG20221114082331.png,facil,7430HNM,7430 HNM.,7430HNM,1,0,1440.7
+smolvlm,todas/IMG20221114082335.png,facil,7110FPJ,7110 fpj.,7110FPJ,1,0,1453.3
+smolvlm,todas/IMG20221114082338_0.png,dificil,7927JHX,JHX.,JHX,0,4,993.1
+smolvlm,todas/IMG20221114082338_1.png,dificil,6401DWL,6401 DWL.,6401DWL,1,0,1437.6
+smolvlm,todas/IMG20221114113754.png,facil,8916BDG,8916 BDG.,8916BDG,1,0,1382.9
+smolvlm,todas/IMG20221114113800.png,facil,4324KRD,4324 KRD.,4324KRD,1,0,1555.3
+smolvlm,todas/IMG20221114113807.png,facil,2465DYD,246 DYD.,246DYD,0,1,1421.4
+smolvlm,todas/IMG20221114113823.png,facil,3821GYG,3821 GYG.,3821GYG,1,0,1552.4
+smolvlm,todas/IMG20221114113830.png,facil,0674BZH,0674 BZH.,0674BZH,1,0,1502.3
+smolvlm,todas/IMG20221114113836.png,facil,3027LMJ,3027 LMJ.,3027LMJ,1,0,1126.9
+smolvlm,todas/IMG20221114113843.png,facil,4928JBF,4928 JBF.,4928JBF,1,0,1092.4
+smolvlm,todas/IMG20221114113849.png,facil,9074FYM,9074FYM.,9074FYM,1,0,1518.1
+smolvlm,todas/IMG20221114113902.png,facil,6352LNB,6352 LNB.,6352LNB,1,0,1126.8
+smolvlm,todas/IMG20221114113915.png,facil,GC8300CB,GC 8300 CB.,GC8300CB,1,0,1087.6
+smolvlm,todas/IMG20221114113931.png,facil,8590LYT,8590 LYT.,8590LYT,1,0,1193.7
+smolvlm,todas/IMG20221114113935.png,facil,1336FLG,1336 flg.,1336FLG,1,0,1422.8
+smolvlm,todas/IMG20221114113948.png,facil,4452HYG,4.452.Hyg.,4452HYG,1,0,1625.6
+smolvlm,todas/IMG20221114114128.png,facil,0083CPC,0083 CPC.,0083CPC,1,0,1399.2
+smolvlm,todas/IMG20221115153655.png,facil,0182GKT,0182 GKT.,0182GKT,1,0,1556.1
+smolvlm,todas/prueba-peugeot-308-hybrid-phev-2_mid6359518109bdc.png,facil,9729LTL,9729 LTL.,9729LTL,1,0,1804.7
+smolvlm,todas/0182GLK.png,facil,0182GLK,0182 GLK.,0182GLK,1,0,1495.2
+smolvlm,todas/0304FWK.png,facil,0304FWK,0304 FWK.,0304FWK,1,0,1469.5
+smolvlm,todas/1310MPK.png,facil,1310MPK,1310 MPK.,1310MPK,1,0,1471.1
+smolvlm,todas/1339MMS.png,facil,1339MMS,1399 MMIS.,1399MMIS,0,2,1393.6
+smolvlm,todas/5004MGB.png,dificil,5004MGB,5004 MGB.,5004MGB,1,0,2320.4
+smolvlm,todas/5488LKV.png,facil,5488LKV,5488 LKV.,5488LKV,1,0,1166.1
+smolvlm,todas/6222JWN.png,dificil,6222JWN,6222 JWN.,6222JWN,1,0,1572.0
+smolvlm,todas/6688KSW.png,facil,6688KSW,6688 KSW.,6688KSW,1,0,1403.3
+smolvlm,todas/8555JKG.png,facil,8555JKG,8555 JKG.,8555JKG,1,0,1447.7
+smolvlm,todas/8970GZR.png,facil,8970GZR,8970 GZR.,8970GZR,1,0,1473.1
+smolvlm,todas/9075MDZ.png,facil,9075MDZ,9075 MDZ.,9075MDZ,1,0,1494.2
+smolvlm,todas/9247CZG.png,facil,9247CZG,9247 CZG.,9247CZG,1,0,1154.6
+smolvlm,todas/0550HNN.png,facil,0550HNN,0550 HNN.,0550HNN,1,0,1206.1
+smolvlm,todas/1062FNT.png,facil,1062FNT,1062 FNT.,1062FNT,1,0,1456.7
+smolvlm,todas/1111LRB.png,facil,1111LRB,111LRB.,111LRB,0,1,1352.6
+smolvlm,todas/2929KXJ.png,facil,2929KXJ,2929 KXXJ.,2929KXX,0,1,1173.3
+smolvlm,todas/3044JMB.png,facil,3044JMB,3044 JMB.,3044JMB,1,0,1419.2
+smolvlm,todas/3076CCV.png,facil,3076CCV,3076 CCV.,3076CCV,1,0,1487.3
+smolvlm,todas/3497BYY.png,facil,3497BYY,3497 BYY.,3497BYY,1,0,1424.5
+smolvlm,todas/3929GVS.png,facil,3929GVS,3929 GVS.,3929GVS,1,0,1490.0
+smolvlm,todas/4283DJR.png,facil,4283DJR,4283 DJR.,4283DJR,1,0,1389.4
+smolvlm,todas/4373KYG.png,facil,4373KYG,4373 KYG.,4373KYG,1,0,1568.3
+smolvlm,todas/5240BFM.png,facil,5240BFM,5240 BFM.,5240BFM,1,0,1407.8
+smolvlm,todas/5816FWG.png,dificil,5816FWG,5816 FVG.,5816FVG,0,1,1580.6
+smolvlm,todas/6000GVT.png,facil,6000GVT,6000 GVT.,6000GVT,1,0,1414.2
+smolvlm,todas/6072HBJ.png,facil,6072HBJ,6072 HBJ.,6072HBJ,1,0,1137.8
+smolvlm,todas/6230FXF.png,facil,6230FXF,6230 FXF.,6230FXF,1,0,1820.7
+smolvlm,todas/6556KKH.png,facil,6556KKH,6556 KKH.,6556KKH,1,0,1519.3
+smolvlm,todas/7007KFD.png,facil,7007KFD,7007 KFD.,7007KFD,1,0,1770.5
+smolvlm,todas/7067KSH.png,facil,7067KSH,7067 KSH.,7067KSH,1,0,1120.4
+smolvlm,todas/7469JYS.png,facil,7469JYS,7469 JYS.,7469JYS,1,0,1430.8
+smolvlm,todas/8120GLL.png,facil,8120GLL,8120GLL,8120GLL,1,0,1050.0
+smolvlm,todas/9869KST.png,facil,9869KST,9869 KST.,9869KST,1,0,1428.2
+smolvlm,todas/9892JFR.png,facil,9892JFR,9892 JFR.,9892JFR,1,0,1117.1
+smolvlm,todas/9961HDK.png,facil,9961HDK,9961 HDK.,9961HDK,1,0,1856.6
