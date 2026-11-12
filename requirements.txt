@@ -3,7 +3,6 @@
 ultralytics==8.4.183
 lap
 ipykernel
-huggingface_hub
 matplotlib
 tqdm
 # OCR (P4b). Tesseract necesita además el programa: https://github.com/UB-Mannheim/tesseract/wiki

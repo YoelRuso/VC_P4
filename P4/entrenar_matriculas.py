@@ -4,7 +4,7 @@ Uso (desde cualquier carpeta, con el entorno VC_P4 activado):
     python P4/entrenar_matriculas.py            # entrena y evalúa en test
     python P4/entrenar_matriculas.py --solo-test
 
-Los datos se descargan antes con `python descargar_datos.py`.
+Antes hay que descomprimir los datos en datos/ (ver README).
 """
 import argparse
 from pathlib import Path

@@ -1,4 +1,4 @@
-# Datos: datasets, vídeos y recortes no se suben (están en Hugging Face: python descargar_datos.py)
+# Datos: datasets, vídeos y recortes no se suben (están en Google Drive, ver README)
 datos/*
 !datos/matriculas_recortadas/
 datos/matriculas_recortadas/*

@@ -26,11 +26,11 @@ Prototipo que procesa el vídeo de test (`C0142.MP4`) y:
 VC_P4/
 ├── README.md
 ├── requirements.txt                dependencias del entorno
-├── descargar_datos.py              descarga datos/ desde Hugging Face
 ├── datos/                          (no se sube a GitHub: está en Google Drive)
 │   ├── dataset_limpio/             dataset YOLO de matrículas usado para entrenar
 │   ├── dataset_lejanas/            matrículas reducidas (data augmentation), se genera con P4/generar_dataset_reducido.py
-│   └── matriculas_recortadas/      recortes para el OCR; ocr_dataset.csv (texto real) sí se sube
+│   ├── matriculas_recortadas/      recortes para el OCR; ocr_dataset.csv (texto real) sí se sube
+│   └── videos/C0142.MP4            vídeo de test
 ├── P4/                             detección
 │   ├── seguimiento_y_csv.ipynb     ★ prototipo final: seguimiento, matrículas, OCR, conteo, CSV, flujo y anonimización
 │   ├── resultado_seguimiento/      salida del prototipo: CSV, recortes de matrícula (y vídeos, que no se suben)
@@ -68,13 +68,20 @@ cd VC_P4
 # crear el entorno (ver arriba)
 ```
 
-**Datos:** descargar `datos_P4_matriculas.zip` de la [carpeta de Google Drive](https://drive.google.com/drive/folders/15SfuHr97QuRhpA5OweJGkpNzz6gs5Ni2) y descomprimirlo en `datos/`. Contiene `dataset_limpio`, `dataset_lejanas` (el del modelo final) y `matriculas_recortadas` (OCR), con un `LEEME.txt` que los describe. Las imágenes contienen matrículas legibles: no redistribuir.
+**Datos**, todo en la [carpeta de Google Drive](https://drive.google.com/drive/folders/15SfuHr97QuRhpA5OweJGkpNzz6gs5Ni2):
 
-Los pesos (`best.pt`) de cada entrenamiento sí se suben a GitHub (pesan unos 5 MB). El vídeo de test `C0142.MP4` va en `datos/videos/`. Los resultados de un entrenamiento hecho en Colab se descomprimen dentro de `P4/`.
+- `datos_P4_matriculas.zip`: se descomprime en `datos/`. Contiene `dataset_limpio`, `dataset_lejanas` (el del modelo final) y `matriculas_recortadas` (OCR), con un `LEEME.txt` que los describe. Las imágenes contienen matrículas legibles: no redistribuir.
+- `C0142.MP4`: el vídeo de test, que va en `datos/videos/`.
+
+Los pesos (`best.pt`) de cada entrenamiento sí se suben a GitHub (pesan unos 5 MB), así que no hace falta volver a entrenar para ejecutar el prototipo.
 
 Tesseract se instala aparte ([UB-Mannheim](https://github.com/UB-Mannheim/tesseract/wiki)); su ruta está en la variable `TESSERACT` del cuaderno P4b.
 
-Los miembros del grupo también pueden bajar los datos del repositorio privado de Hugging Face [YoelRuso/MatriculasVC](https://huggingface.co/datasets/YoelRuso/MatriculasVC) con `python descargar_datos.py` (tras `hf auth login`), incluido el vídeo de test (`--solo video`). Ese repositorio no incluye `dataset_lejanas`, que se genera con `python P4/generar_dataset_reducido.py`.
+**Vídeos de salida:** OpenCV los guarda con el códec `mp4v`, que no se reproduce en el navegador ni en Google Drive. Los que se entregan están convertidos a H.264 con `ffmpeg`:
+
+```bash
+ffmpeg -i seguimiento.mp4 -c:v libx264 -crf 23 -pix_fmt yuv420p -movflags +faststart seguimiento_h264.mp4
+```
 
 **Equipo de pruebas:** Intel Core i5-10400F, 16 GB RAM, NVIDIA GeForce RTX 3050 (8 GB), Windows 11, PyTorch 2.8 + CUDA 12.6, Ultralytics 8.4.
 
